@@ -48,6 +48,9 @@ Assignment: Student Registration Form
             font-size: small;
             /* cursor: pointer; */
         }
+        #textalign{
+            text-align: center;
+        }
 
         /* td{
    style="height: 45px;" 
@@ -68,17 +71,17 @@ Assignment: Student Registration Form
         <table >
             <tr>
                 <td style="height: 45px;" width="175"> FIRST NAME</td>
-                <td><input type="text" placeholder="Enter First Name" name="firstname" value="" maxlength="30" size="25" pattern="[A-Z]">
+                <td><input type="text" placeholder="Enter First Name" name="firstname" value="" maxlength="30" size="25" required pattern="[A-z]{1,30}" title="Enter Your First Name">
                      (max 30 characters a-z and A-Z)</td>
             </tr>
             <tr>
                 <td style="height: 45px;"> LAST NAME</td>
-                <td><input type="text" placeholder="Enter Last Name" name="lastname" value="" maxlength="30" size="25">
+                <td><input type="text" placeholder="Enter Last Name" name="lastname" value="" maxlength="30" size="25" required pattern="[A-z]{1,30}" title="Enter Your Last Name" >
                     (max 30 characters a-z and A-Z)</td>
             </tr>
             <tr>
                 <td style="height: 45px;">DATE OF BIRTH</td>
-                <td> <select name="day">
+                <td> <select name="day" required >
                         <option value="00"> &ensp; Day: &ensp; &ensp; </option>
                         <option value="01">1</option>
                         <option value="02">2</option>
@@ -112,7 +115,7 @@ Assignment: Student Registration Form
                         <option value="30">30</option>
                         <option value="31">31</option>
                     </select>
-                    <select name="month">
+                    <select name="month" required>
                         <option value="00"> &ensp;&ensp; Month: &ensp; &ensp; </option>
                         <option value="01">January</option>
                         <option value="02">February</option>
@@ -128,7 +131,7 @@ Assignment: Student Registration Form
                         <option value="12">December</option>
                     </select>
 
-                    <select name="year">
+                    <select name="year" required>
                         <option value="0000">&ensp; Year: &ensp; </option>
                         <option value="2020">2020</option>
                         <option value="2019">2019</option>
@@ -175,45 +178,45 @@ Assignment: Student Registration Form
             </tr>
             <tr>
                 <td style="height: 45px;">EMAIL</td>
-                <td><input type="email" placeholder="Enter Email Address" name="email" value="" size="25"></td>
+                <td><input type="email" placeholder="Enter Email Address" name="email" value="" size="25" required></td>
             </tr>
             <tr>
                 <td style="height: 45px;">MOBILE NUMBER</td>
-                <td> <input type="text" placeholder="Enter Mobile Number" name="mobile" maxlength="10" value=""
-                        size="25"> (10 digit number)</td>
+                <td> <input type="text" placeholder="Enter Mobile Number" name="mobile" pattern="[0-9]{10}" maxlength="10" value=""
+                        size="25" required title="Minimum 10 digits"> (10 digit number)</td>
             </tr>
             <tr>
                 <td style="height: 45px;">GENDER</td>
-                <td><label for="male">Male</label> <input id="male" type="radio" name="gender" value="Male">
-                    <label for="female">Female</label><input id="female" type="radio" name="gender" value="Female"></td>
+                <td><label for="male">Male</label> <input id="male" type="radio" name="gender" value="Male" required>
+                    <label for="female">Female</label><input id="female" type="radio" name="gender" value="Female" required></td>
             </tr>
             <tr>
                 <td style="height: 45px;">ADDRESS</td>
-                <td><textarea name="address" cols="45" rows="5"></textarea> </td>
+                <td><textarea name="address" cols="45" rows="5" required></textarea> </td>
             </tr>
             <tr>
                 <td style="height: 45px;">CITY </td>
-                <td><input type="text" placeholder="Enter City Name" name="cityname" value="" maxlength="30" size="25">
+                <td><input type="text" placeholder="Enter City Name" name="cityname" value="" maxlength="30" size="25" required pattern="[A-z]{1,30}" title="Enter Your City Name">
                     (max 30 characters a-z and A-Z)</td>
             </tr>
             <tr>
                 <td style="height: 45px;">PINCODE</td>
-                <td><input type="text" placeholder="Enter Pincode" name="pincode" value="" maxlength="6" size="25"> (6
+                <td><input type="text" placeholder="Enter Pincode" name="pincode" value="" maxlength="6" size="25" pattern="[0-9]{6}" required title="Minimum 6 digits"> (6
                     digit number)</td>
             </tr>
             <tr>
                 <td style="height: 45px;">STATE</td>
-                <td><input type="text" placeholder="Enter State" name="state" value="" maxlength="30" size="25"> (max 30
+                <td><input type="text" placeholder="Enter State" name="state" value="" maxlength="30" size="25" required pattern="[A-z]{1,30}" title="Enter Your State Name"> (max 30
                     characters a-z and A-Z)</td>
             </tr>
             <tr>
                 <td style="height: 45px;">COUNTRY</td>
-                <td><input type="text" placeholder="Enter Country" name="country" value="" maxlength="15" size="25">
+                <td><input type="text" placeholder="Enter Country" name="country" value="" maxlength="15" size="25" required>
                 </td>
             </tr>
             <tr>
                 <td style="height: 45px;">HOBBIES</td>
-                <td> <label for="Drawing">Drawing</label> <input id="Drawing" type="checkbox" name="drawing">
+                <td> <label for="Drawing">Drawing</label> <input id="Drawing" type="checkbox" name="drawing" >
                     <label for="Singing ">Singing </label> <input id="Singing " type="checkbox" name="singing ">
                     <label for="Dancing">Dancing</label> <input id="Dancing" type="checkbox" name="dancing">
                     <label for="Sketching">Sketching</label> <input id="Sketching" type="checkbox" name="sketching"><br>
@@ -240,33 +243,33 @@ Assignment: Student Registration Form
                         <td></td>
                         <td> 1 </td>
                         <td> Class X </td>
-                        <td><input type="text" name="" value="" maxlength="10" size="25"> </td>
-                        <td><input type="text" name="" value="" maxlength="2" size="25"></td>
-                        <td><input type="text" name="" value="" maxlength="4" size="25"></td>
+                        <td><input type="text" name="" value="" maxlength="10" size="25" required  id="textalign" pattern="[A-z]{1,10}" title="Fill minimum Class-X Qualification & Enter Your Board Name"> </td>
+                        <td><input type="text" name="" value="" maxlength="2" size="25" pattern="[0-9]{2}" required id="textalign" title="Minimum 2 decimal"></td>
+                        <td><input type="text" name="" value="" maxlength="4" size="25" pattern="[0-9]{4}" required id="textalign" title="Minimum 4 decimal"></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td> 2 </td>
                         <td> Class XII </td>
-                        <td><input type="text" name="" value="" maxlength="10" size="25"> </td>
-                        <td><input type="text" name="" value="" maxlength="2" size="25"></td>
-                        <td><input type="text" name="" value="" maxlength="4" size="25"></td>
+                        <td><input type="text" name="" value="" maxlength="10" size="25" id="textalign" pattern="[A-z]{1,10}" title="Enter Your Board Name"> </td>
+                        <td><input type="text" name="" value="" maxlength="2" size="25" pattern="[0-9]{2}" id="textalign" title="Minimum 2 decimal"></td>
+                        <td><input type="text" name="" value="" maxlength="4" size="25" pattern="[0-9]{4}" id="textalign" title="Minimum 4 decimal"></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td> 3 </td>
                         <td> Graduation </td>
-                        <td><input type="text" name="" value="" maxlength="10" size="25"> </td>
-                        <td><input type="text" name="" value="" maxlength="2" size="25"></td>
-                        <td><input type="text" name="" value="" maxlength="4" size="25"></td>
+                        <td><input type="text" name="" value="" maxlength="10" size="25" id="textalign" pattern="[A-z]{1,10}" title="Enter Your Board Name"> </td>
+                        <td><input type="text" name="" value="" maxlength="2" size="25" pattern="[0-9]{2}" id="textalign" title="Minimum 2 decimal"></td>
+                        <td><input type="text" name="" value="" maxlength="4" size="25" pattern="[0-9]{4}" id="textalign" title="Minimum 4 decimal"></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td> 4 </td>
                         <td> Masters </td>
-                        <td><input type="text" name="" value="" maxlength="10" size="25"> </td>
-                        <td><input type="text" name="" value="" maxlength="2" size="25"></td>
-                        <td><input type="text" name="" value="" maxlength="4" size="25"></td>
+                        <td><input type="text" name="" value="" maxlength="10" size="25" id="textalign" pattern="[A-z]{1,10}" title="Enter Your Board Name"> </td>
+                        <td><input type="text" name="" value="" maxlength="2" size="25" pattern="[0-9]{2}" id="textalign" title="Minimum 2 decimal"></td>
+                        <td><input type="text" name="" value="" maxlength="4" size="25" pattern="[0-9]{4}" id="textalign" title="Minimum 4 decimal"></td>
                     </tr>
 
                     <tr>
@@ -288,10 +291,10 @@ Assignment: Student Registration Form
 
                 <tr>
                     <td width="175" style="height: 50px;">COURSES <br>APPLIED FOR</td>
-                    <td><label for="BCA">BCA</label> <input id="BCA" type="radio" name="courses" value="BCA">
-                        <label for="BCom">B.Com</label><input id="BCom" type="radio" name="courses" value="BCom">
-                        <label for="BSc">B.Sc</label><input id="BSc" type="radio" name="courses" value="BSc">
-                        <label for="BA">B.A</label><input id="BA" type="radio" name="courses" value="BA"><br><br>
+                    <td><label for="BCA">BCA</label> <input id="BCA" type="radio" name="courses" value="BCA" required>
+                        <label for="BCom">B.Com</label><input id="BCom" type="radio" name="courses" value="BCom" required>
+                        <label for="BSc">B.Sc</label><input id="BSc" type="radio" name="courses" value="BSc" required>
+                        <label for="BA">B.A</label><input id="BA" type="radio" name="courses" value="BA" required><br><br>
                     </td>
                 </tr>
                 <tr>
