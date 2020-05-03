@@ -1,0 +1,617 @@
+*{
+    font-family:Arial ;
+}
+body{
+    overflow-x: hidden; 
+}
+
+@media only screen and (max-width: 800px) {
+  
+.main{
+    display: flex;
+    padding: 20px 0px 10px 0px !important;
+    background-color: #316dc3;
+    margin: 1px 0px 0px 0px !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
+}
+
+.main{
+    display: flex;
+    padding: 10px  0px 0px 0px;
+    background-color: #316dc3;
+    margin: 0px 0px 0px 0px;
+    flex-direction: row;
+    flex-wrap: wrap !important; /* Flex boxes will come sodn */
+}
+
+
+
+.one li,.two,.three{
+    display: inline;  
+justify-content: space-between; /*    Give Euual space b/n each border element */
+    /* justify-content: space-around; */
+    text-align: center;
+}
+
+.one li:hover{ background-color: #316dc3;}
+
+.one{  flex: 1; 
+text-align: center;}
+
+.two{  color: white;  flex: 3; }
+
+.three{ flex: 1; }
+
+button{
+    border: 1px solid black;
+    padding: 4px 8px 4px 8px;
+    background-color: #f5f5f5;
+    font-size: 12px !important;
+}
+
+
+
+
+
+/* navbar*/
+@media only screen and (max-width: 800px) {
+    #image{
+        position: relative !important;
+        left: -11px !important; 
+     }
+     nav div ul{
+        margin: 0PX 0PX 0px 0px !important ;
+    }
+    
+}
+
+#image{
+   position: relative;
+   left: 40px; 
+}
+#home{
+    background-color:#316dc3; 
+  
+}
+nav div ul li:hover {
+    background-color: #316dc3;  
+}
+
+#white a:hover{
+    color: white;
+} 
+
+nav div ul li {
+     font-size: 14px ;
+     font-weight: bold;
+     padding: 1px 7px 1px 7px;
+     border-radius: 20px ; 
+     
+}
+nav div ul{
+    margin: 0PX 0PX 0px 362px  ;
+}
+/* navbar dropdown */
+#dd:hover{
+    background-color: #316dc3 !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+
+
+
+/* piaic line */
+
+div.downslider p{
+    background-color: #316dc3;  
+    text-align: center;
+    color:white;
+    padding: 2px 6px 2px 6px;
+    margin: 10px 60px;
+    height: 28px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* saylani introduction heading */
+
+
+div.intro{
+    background-color: #f7f8fa;
+    text-align: center;    
+}
+
+div.intro p{ 
+color: black;
+padding: 30px 200px 30px 200px;
+}
+
+#font span{
+    font-weight: bold !important;
+    font-size: 38px;
+    font-family: 'Times New Roman' !important;
+}
+
+#what span{
+    font-weight: bold !important;
+    font-size: 38px !important;
+    font-family: 'Times New Roman' !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+#font span{
+        font-weight: bold;
+        font-size: 29px !important;
+        font-family: 'Times New Roman' !important;
+    }
+    #what span{font-weight: bold  !important;
+        font-size: 27px !important;
+        font-family: 'Times New Roman' !important;
+    
+    }
+
+    #tj{
+        font-size: 14px !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+        nav div ul{
+            margin: 0PX 0PX 0px 150px  ;
+        }
+    }
+
+@media only screen and (max-width: 1100px) {
+        nav div ul{
+            margin: 0PX 0PX 0px 100px  ;
+        }
+    }
+
+@media only screen and (max-width: 1000px) {
+    
+nav div ul{
+        margin: 0PX 0PX 0px 0px  ;
+    }
+     
+div.downslider p{
+        background-color: #316dc3;  
+        text-align: center;
+        color:white;
+        padding: 4px 6px 2px 6px;
+        margin: 15px 20px;
+        font-size: 13px;
+        height: 28px;
+        
+    }
+
+   
+div.intro p{ 
+        color: black;
+        padding: 5px 30px 5px 30px;
+         }
+
+
+}
+
+
+
+
+
+
+
+/*nubers changing without js  */
+#div{
+    background-color:#2755e9 ;
+}
+
+#subcontainer>div{
+    background-color:#2755e9 ;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#padding{
+text-align: center;
+padding: 60px 100px 60px 100px;
+margin: 0px 38px 0px 38px;
+}
+
+.b{
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 50px;
+}
+
+.c{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 16px;
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+    .contain{
+        background-color:#2755e9 ; }    
+
+    #padding{ 
+    padding: 50px 80px 50px 80px;
+    margin: 0px 1px 0px 1px;
+    }
+    
+    .b{
+    color: white;
+    font-family: Georgia;
+    font-size: 50px;
+    }
+    
+    .c{
+        text-align: center;
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* 6 flex box */
+@media only screen and (max-width: 800px) 
+{
+#padd{
+        padding: 1px 60px 1px 60px !important;
+        margin: 10px 20px 10px 20px !important;
+
+    }
+
+    #sb1{
+        padding: 1px 0px 1px 0px  !important;
+    }
+
+}
+
+#div2{
+   background-color: #f7f8fa;
+}
+
+#padd{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 170px 15px 170px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 7px gray;
+    
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sb{
+    height: 80px;
+    width: 80px;  
+}
+
+#sb1{color: #4e82cb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 10px 1px 10px ;
+   
+}
+
+
+
+
+
+
+
+/* MISSION AND UPCOMING PROJECTS */
+
+.main2{
+    display: flex;
+    padding: 0px  0px 0px 0px;
+    color: black !important;
+    /* background-color: rgb(200, 197, 202) !important; */
+
+    margin: 0px 0px 0px 0px;
+    flex-direction: row !important;
+    flex-wrap: wrap !important; /* Flex boxes will come sodn */
+ 
+}
+
+
+
+.one2{  
+flex: 2; 
+/* text-align: center; */
+}
+
+.two2{ 
+    text-align: center;
+    flex: 1; 
+    }
+
+
+
+
+/*  */
+@media only screen and (max-width: 800px) {
+    #coming{
+        width: 400px;
+        margin: 3px !important;
+        color: #3a74c6 ;  
+        font-weight: bold; 
+        font-size: 13px !important; 
+        font-family: Georgia !important ;
+        background-color: #f7f8fa;
+        display: inline-block !important;
+        margin: 10px 30px 10px 30px !important;
+   
+        }
+        .two2{
+            /* d */
+            padding: 0px 40px 0px 20px !important;
+        }
+
+        #img,#mar{
+            display: inline-block !important;
+        }
+        h4{
+            font-size: 20px !important;  
+        }
+
+        #next{
+            padding: 10px !important;  
+            box-shadow: 0px 0px 2px f7f8fa !important;
+            text-align: justify;
+            margin: 4px 3px !important;
+            }
+
+
+
+
+
+
+            #h41{
+                position: relative !important;
+                left:10px !important;
+                text-align: left;
+            }
+            #hr1{
+                position: relative !important;
+            left:-135px !important;
+            }
+    
+            
+            #h42{
+                position: relative !important;
+                left:18px !important;
+                text-align: left;
+            }
+            
+            #hr2{
+                position: relative !important;
+                left:-130px !important;
+            }
+    
+
+
+
+    }
+
+
+
+    #h41{
+        position: relative;
+        right:14px;
+    }
+    #hr1{
+        position: relative !important;
+    right:215px !important;
+    }
+
+            #h42{
+                position: relative;
+                right:90px;
+            }
+            #hr2{
+                position: relative;
+                right:80px; 
+            }
+
+
+
+#img,#mar{
+    display: inline-block;}
+#img{
+    width:"40px" ;
+    height:"40px";}
+
+#coming{
+    display: inline-block !important;
+box-shadow: 0px 0px 1px grey !important;
+width: 400px;
+color: #3a74c6 ;  
+font-weight: bold; 
+font-size: 17px !important; 
+font-family: Helvetica Neue !important ;
+background-color: #f7f8fa;
+padding: 15px 10px 15px 10px !important;
+margin: 10px 10px 15px 10px !important;
+text-align: left;
+
+}
+
+
+#next{
+box-shadow: 0px 0px 1px rgb(194, 193, 193) !important;
+text-align: justify;
+background-color: rgb(250, 250, 250) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Image Gallery */
+
+@media only screen and (max-width: 800px) {
+#ig{
+width:280px  !important;
+height: 180px !important;
+padding: 1px 1px 1px 1px !important;
+margin: 5px 20px 5px 20px !important;
+align-items: center !important;
+justify-content: center !important;
+display: flex !important;
+flex-direction: column !important;
+text-align: center;
+}
+#igcontainer{  
+    margin: 5px 0px 5px 0px !important;
+/* padding: 10px 10px 10px 10px !important; */
+}
+}
+
+#ig{
+width:215px;
+height: 160px;
+padding: 1px 1px 1px 1px !important;
+box-shadow: 1px 1px 4px grey; 
+text-align: center !important;
+}
+
+#igcontainer{
+
+    margin: 5px 120px 5px 120px;
+}
+
+
+/* Footer  */
+
+.main3{
+    display: flex;
+    padding: 11px  0px 0px 0px;
+    background-color: #25272e;
+    margin: 0px 0px 0px 0px;
+    flex-direction: row;
+    flex-wrap: wrap !important; /* Flex boxes will come sodn */ 
+}
+.two3,.three3{
+    display: inline; 
+    text-align: left;
+}
+
+
+/*  */
+
+@media only screen and (max-width: 800px) {
+
+.two3,.three3{
+display: inline; 
+text-align: center !important;
+}
+
+/* working */
+
+#footerparagraph{ 
+    padding: 50px 10px 60px 10px !important;
+    /* margin: 0px 1px 0px 1px !important; */
+    text-align: center !important;
+    position: relative !important;
+    left: 1px;
+
+}
+
+}
+
+
+#footerparagraph{ 
+padding: 70px 0px 80px 145px;
+}
+
+#foot3 li{
+display: inline !important;
+}
+
+
+
+/* Footer copyright  */
+
+@media only screen and (max-width: 600px) 
+{
+#cr{
+text-align: center !important;
+padding: 10px 82px 10px 90px !important;
+}
+}
+#cr{
+background-color: #316dd9;
+color: white;
+text-align: left !important;
+font-size: 12px;
+padding: 10px 0px 10px 155px;
+}
+
+
+
+
+
+/*Back to top icon  */
+
+#btt{
+position: fixed;
+right: 5px;
+bottom: 10px;
+
+border-radius: 80px;
+height: 40px;
+width: 40px;
+opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    #btt{ 
+        position: fixed;
+        right: 8px;
+        bottom: 10px;
+        width: 25px;
+        height: 25px;
+        border-radius: 80px;
+opacity: 0.8;
+        
+        }
+
+}
