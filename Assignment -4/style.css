@@ -125,12 +125,14 @@ nav div ul{
     font-size: 14px !important;
     font-family: 'ubuntu';
     text-align: left !important;
+    margin-bottom: 1px !important;
   }
   #mobilestory{
     color: rgb(255, 255, 255);
     font-size: 11px !important;
     font-family: 'ubuntu';
     text-align: left !important;
+    margin-bottom: 1px !important;
   }
  
   #mobilebutton{
@@ -253,7 +255,9 @@ margin: 0px 105px 0px 0px;
 
 
 /*  */
-
+@media only screen and (max-width: 700px) {
+  
+}
 
 
 
@@ -460,7 +464,15 @@ text-transform: uppercase;
 
 
 /* Footer */
+@media only screen and (max-width: 800px) {
+  #footercolorblue{
+    background-color: #3d5afe !important;
+  }
+}
 
+#footercolorblue{
+  background-color: #3d5afe;
+}
 /*  */
 
 
