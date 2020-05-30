@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="../bootstrap.min.css">
 
     <style>
-        @media only screen and (max-width: 800px) {
+   
+
+
+        @media only screen and (max-width: 850px) {
             h1 {
                 font-size: 29px !important;
                 text-align: center !important;
@@ -25,22 +28,35 @@
                 padding: 0px 0px 0px 20px !important;
                 font-size: 16px !important;
                 text-align: justify !important;
+                border-right: 1px solid rgb(255, 255, 255) !important;
+   border-left: 1px solid rgb(255, 255, 255) !important;
             } 
 
             #divimg>img {
-                margin: 0px 55px 0px 0px !important;
-                height: 170px;
-                width: 170px;
-                align-content: center !important;
-            }
+                margin: 0px 0px 0px 25px !important;
+                height: 200px !important;
+                width: 200px !important;
 
-            #body-about-us {
-                /* overflow-x: hidden !important; */
+   
             }
-
+  
         }
 
+#divp{
+  border-right: 1px solid rgb(240, 239, 239);
+   border-left: 1px solid rgb(240, 239, 239);
+}
 
+
+h3{
+  padding-left: 19px;
+}
+
+        #divimg>img{
+              height: 270px;
+                width: 80% ;
+   
+              } 
 
 
         #body-about-us {
@@ -68,45 +84,50 @@
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <!--  -->
+
+<ul class="navbar-nav mr-auto">
+</ul>
+  <span class="navbar-text">
+<!--  -->
+
     <ul class="navbar-nav">
 
       <li class="nav-item"  id="white"  >
-        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="../index.html">&nbsp;Home&nbsp;</a>
       </li>
 
 
       <li class="nav-item" id="white">
-        <a class="nav-link" href="../index.html#latestphones">Brands</a>
+        <a class="nav-link" href="../index.html#latestphones">&nbsp;Brands&nbsp;</a>
       </li>
 
       
       <li class="nav-item" id="white">
-        <a class="nav-link" href="../index.html#mobilenews">News</a>
+        <a class="nav-link" href="../index.html#mobilenews">&nbsp;News&nbsp;</a>
       </li>
 
 
       <li class="nav-item" id="white">
-        <a class="nav-link" href="../blogs/blogs.html ">Blogs</a>
+        <a class="nav-link" href="../blogs/blogs.html ">&nbsp;Blogs&nbsp;</a>
       </li>
 
 
 
       <li class="nav-item  active" id="white" style="margin-right: 3px; margin-left: 4px; background-color: white;" id="home">
-        <a class="nav-link" href="#"  style="color: rgb(0, 0, 0);">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"  style="color: rgb(0, 0, 0);">&nbsp;About&nbsp; <span class="sr-only">(current)</span></a>
       </li>
 
 
       <li class="nav-item" id="white">
-        <a class="nav-link" href="../contact/contact-us.html" >Contact</a>
+        <a class="nav-link" href="../contact/contact-us.html" >&nbsp;Contact&nbsp;</a>
       </li>
 
-
-
-
     </ul>
-
+<!--  -->
+</span>
+<!--  -->
   </div>
 </nav>
 </div>
@@ -126,30 +147,28 @@
 
 
     <h1 style="text-align: center; font-family: 'Ubuntu'; ">About Us</h1>
-    <!-- <hr style="width: 240px;  background-color: #000000;"> -->
     <br>
 
 
-    <div class="container-fluid row">
-        
-        <div class="col  col-sm-12 col-md-1"></div>
+    <div class="container ">
+        <div class="row col-md-12 col-sm-12">
 
-        <div id="divimg" class="col  col-sm-12 col-md-3 align-content-center" style="text-align: center;"> <br>
-            <img class="img-responsive rounded-circle " src="wd.PNG" alt="Loading..." height="270px" width="90%"
+        <div id="divimg" class=" col-sm-12 col-md-4 align-content-center" style="text-align: center;"> <br>
+            <img class="img-responsive rounded-circle " src="wd.PNG" alt="Loading..."
                 style="border-radius: 150px; border: 4px solid rgb(162, 161, 236);">
         </div>
 
 
 
 
-        <div class="col col-sm-12 col-md-7">
+        <div class=" col-sm-12 col-md-7">
 
             <br>
-            <h3 style="text-align: left; font-family: 'Ubuntu'; font-size: 26px;"> &nbsp;&nbsp; Who we are?</h3>
+            <h3 style="text-align: left; font-family: 'Ubuntu'; font-size: 26px;">Who we are?</h3>
 
             <div id="divp"
                 style="background-color: rgb(253, 253, 253);  font-size: 18px;
-             font-family: sans-serif;  text-align: justify;   padding: 10px 20px; border-left: 1px solid rgb(240, 239, 239);">
+             font-family: sans-serif;  text-align: justify;   padding: 10px 20px; ">
                 <p>
                     With each passing year technology keeps on advancing tremendously and Advance Telecom strives to
                     keep
@@ -179,6 +198,8 @@
 
         </div>
 
+      </div>
+
     </div>
 
 
@@ -198,7 +219,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark" style="color: white; background-color: #212121 !important;">
 
-  <div style="background-color: #3d5afe; ">
+  <div style="background-color: #3d5afe; " id="footercolorblue">
     
     <div class="container">
 
@@ -209,7 +230,6 @@
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           <h6 class="mb-0" style="font-family: 'Ubuntu', sans-serif;">Get connected with us on social networks!</h6>
         </div>
-        <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-5 col-lg-7 text-center text-md-right">
@@ -244,8 +264,7 @@
 
         <!-- Content -->
         <h6 class="text-uppercase font-weight-bold">MOBILEPRICE.PK</h6>
-        <!-- <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #a447da;"> -->
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #304ffe ;">
+        <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #304ffe ;">
 
         <p  style="font-family:sans-serif; font-size: 15px;  color: white;">
           Here you will find all usefull & reliable accessories
@@ -260,7 +279,7 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Products</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
+        <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
         <p>
           <a href="../index.html#samsung" style="font-family:sans-serif; font-size: 14.5px; color: white;">Samsung</a>
         </p>
@@ -280,7 +299,7 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
+        <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
         <p>
           <a href="../blogs/blogs.html" style="font-family:sans-serif; font-size: 14.5px; color: white;">Latest Phone Blogs</a>
         </p>
@@ -299,7 +318,7 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold"> Contact</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
+        <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;  background-color: #304ffe;">
         
         <p> <a href="../contact/contact-us.html"  style="font-family:sans-serif; font-size: 14.5px; color: white;">
          <sup> <img src="../footer-icons/location-pin.svg" alt="" width="19" height="20"></sup> Serena Mall, Sec 15-A, PK</a></p>
