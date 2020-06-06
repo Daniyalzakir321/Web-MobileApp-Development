@@ -212,9 +212,9 @@
 // var total_marks=980, marks_obtained=804
 // percentage=(marks_obtained*100)/total_marks
 
-// document.write("total marks: "+total_marks+"<br>")
+// document.write("Total marks: "+total_marks+"<br>")
 // document.write("Marks obtained: "+marks_obtained+"<br>")
-// document.write("Percentage: "+percentage+"%")
+// document.write("Percentage: "+percentage.toFixed(2)+"%")
 
 
 
@@ -272,7 +272,7 @@
 
 
 
-// CHAPTER NO:6
+// CHAPTER NO:6-9
 // Task  : 1.
 // document.write( "Result:")
 // var a=10
@@ -320,7 +320,7 @@
 
 
 // Task  : 5.
-// var total=100, english=prompt("Enter English Obtained Marks"),math=prompt("Enter Math Obtained Marks"),urdu=prompt("Enter Urdu Obtained Marks")
+// var total=100, english=parseInt(prompt("Enter English Obtained Marks")),math=parseInt(prompt("Enter Math Obtained Marks")),urdu=parseInt(prompt("Enter Urdu Obtained Marks"))
 // per=(english*100)/total
 // per1=(math*100)/total
 // per2=(urdu*100)/total
@@ -329,10 +329,421 @@
 // pertotal=(obt*100)/300
 
 // document.write("Subject   &nbsp; Total_Marks   &nbsp;    Obt_Marks  &nbsp;   Percentage <br>")
-// document.write("English &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+english+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per+"%   <br>")
-// document.write("Math &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+math+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per1+"%   <br>")
-// document.write("Urdu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+urdu+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per2+"%   <br>")
-// document.write("Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  300  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;"+obt+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+pertotal+"%   <br>")
+// document.write("English &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+english+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per.toFixed(2)+"%   <br>")
+// document.write("Math &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+math+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per1.toFixed(2)+"%   <br>")
+// document.write("Urdu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +total+"  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"+urdu+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+per2.toFixed(2)+"%   <br>")
+// document.write("Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  300  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;"+obt+"  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+pertotal.toFixed(2)+"%   <br>")
+
+
+
+
+
+
+
+// CHAPTER NO:9-11
+// Task  : 1.
+// var city=prompt("Enter City Name").toLowerCase()
+// if (city==="karachi"){
+//     document.write("Welcome to city of lights")
+// }
+
+
+// Task  : 2.
+// var gender=prompt("Enter Your Gender").toLowerCase()
+// if (gender==="male"){
+//     document.write(" Good Morning Sir")
+// }
+// else if (gender==="female"){
+//     document.write("Good Morning Ma’am")
+// }
+
+
+
+// Task  : 3.
+// var signal=prompt("Enter Traffic Signal Color").toLowerCase()
+// if (signal==="red"){
+//     document.write("Must Stop")
+// }
+// else if (signal==="yellow"){
+//     document.write("Ready to move")
+// }
+// else if (signal==="green"){
+//     document.write("Move now")
+// }
+
+
+
+// Task  : 4.
+// var  fuel=prompt("Enter Remaining Fuel in Car in Litres")
+// if (fuel < 0.25){
+//     document.write("Please refill the fuel in your car")
+// }
+
+
+
+// Task  : 5.
+
+//  A. (True)
+// var a = 4;
+// if (++a === 5){
+// alert("Given condition for variable a is true");
+// }
+
+
+//  B.  (False)
+// var b = 82;
+// if (b++ === 83){
+// alert("Given condition for variable b is true");
+// }
+
+
+//  C.   (Condition 2 is True)
+// var c = 12;
+// if (c++ === 13){
+// alert("Condition 1 is true");
+// }
+// if (c === 13){
+// alert("Condition 2 is true");
+// }
+// if (++c < 14){
+// alert("Condition 3 is true");
+// }
+// if(c === 14){
+// alert("Condition 4 is true");
+// }
+
+
+//  D.  (True)
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+
+//  E.  (True)
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+
+//  F.  (True)
+// if("car" < "cat"){
+// alert("Car is smaller than cat");
+// }
+
+
+
+
+// Task  : 6.
+// document.write("<h1> Marks Sheet</h1>")
+// var english=parseInt(prompt("Enter English Obtained Marks")),math=parseInt(prompt("Enter Math Obtained Marks")),urdu=parseInt(prompt("Enter Urdu Obtained Marks")),total=parseInt(prompt("Enter Total Marks")) 
+// var obt=parseInt((english+urdu+math));
+// var percentage=parseInt((obt*100)/total);
+// document.write(" Total Marks : " + total +"<br>")
+// document.write(" Marks Obtained : " + obt +"<br>")
+
+// if( percentage>=80){
+//     document.write(" Percentage : " + percentage.toFixed(2) +"%<br>")
+//     document.write(" Grade : A-One <br>")
+//     document.write(" Remarks : Excellent")
+// }
+// else if( percentage>=70){
+//     document.write(" Percentage : " + percentage.toFixed(2) +"%<br>")
+//     document.write(" Grade : A <br>")
+//     document.write(" Remarks : Good")
+// }
+// else if( percentage>=60){
+//     document.write(" Percentage : " + percentage.toFixed(2) +"%<br>")
+//     document.write(" Grade : B <br>")
+//     document.write(" Remarks : You Need to improve")
+// }
+// else if( percentage>60){
+//     document.write(" Percentage : " + percentage.toFixed(2) +"%<br>")
+//     document.write(" Grade : Fail <br>")
+//     document.write(" Remarks : Sorry")
+// }
+
+
+
+
+// Task  : 7.
+// var secret=parseInt(prompt("Enter Number"))
+// if( secret == 4){
+//         document.write(" Bingo! Correct answer <br>")
+// }
+// else if( secret == 3 || secret == 5){
+//     document.write(" Close enough to the correct answer <br>")
+// }
+
+
+
+// Task  : 8.
+// var secre=parseInt(prompt("Enter Number"))
+// if( secre%3 == 0){
+//         document.write("The number is divisible by 3 <br>")
+// }
+// else if( secre%3 >= 1){
+//     document.write("The number is Not divisible by 3 <br>")
+// }
+
+
+
+// Task  : 9.
+// var secr=parseInt(prompt("Enter Number"))
+// if( secr%2 == 0){
+//         document.write("The number is Even <br>")
+// }
+// else if( secr%2 >= 1){
+//     document.write("The number is Odd <br>")
+// }
+
+
+
+// Task  : 10.
+// var T=parseInt(prompt("Enter Temperature"))
+// if( T > 40){
+//     document.write("It is too hot outside. <br>")
+// }
+// else if( T > 30){
+//     document.write("The Weather today is Normal <br>")
+// }
+// else if( T > 20){
+//     document.write("Today’s Weather is cool <br>")
+// }
+// else if( T > 10){
+//     document.write("OMG! Today’s weather is so Cool. <br>")
+// }
+
+
+
+
+// Task  : 11.
+// var one=parseInt(prompt("Enter First number")),two=parseInt(prompt("Enter Second number")),operator=prompt("Enter  Operation ( + , - , * , / , % )")
+// if( operator =="+"  ){
+//     c= one+two
+//     document.write("Result : "+c+ "<br>")
+// }
+// else if( operator =="-"  ){
+//     c= one-two
+//     document.write("Result : "+c+ "<br>")
+// }
+// else if( operator =="*"  ){
+//     c= one*two
+//     document.write("Result : "+c+ "<br>")
+// }
+// else if( operator =="/"  ){
+//     c= one/two
+//     document.write("Result : "+c+ "<br>")
+// }
+// else if( operator =="%"  ){
+//     c= one%two
+//     document.write("Result : "+c+ "<br>")
+// }
+
+
+
+
+
+
+// CHAPTER NO:12-13
+// Task  : 1.
+// var check_num=prompt("Enter Character")
+// if( check_num >= 0 ){
+//     document.write("Number <br>")
+// }
+// else if( check_num ==check_num.toUpperCase()  ){
+//     document.write("Upper Case  <br>")
+// }
+// else if( check_num ==check_num.toLowerCase()  ){
+//     document.write("Lower Case <br>")
+// }
+
+
+
+
+// Task  : 2.
+// var x=parseInt(prompt("Enter First number")),y=parseInt(prompt("Enter Second number")),operator
+// if( x > y ){
+//     document.write(" First Number is larger<br>")
+// }
+// else if( y > x ){
+//     document.write(" Second Number is larger<br>")
+// }
+// else{
+//     document.write(" Equal<br>")
+// }
+
+
+
+
+// Task  : 3.
+// var z=parseInt(prompt("Enter a Number"))
+// if( z ==0 ){
+//     document.write(" Zeror<br>")
+// }
+// else if( z>0 ){
+//     document.write(" Positiver<br>")
+// }
+// else if( z<0 ){
+//     document.write(" Negative<br>")
+// }
+
+
+
+
+// Task  : 4.
+// var vowel=prompt("Enter a Sring")
+// if  ( vowel ==="a"||vowel ==="e"||vowel ==="i"||vowel ==="o"||vowel ==="u")
+// {
+//     document.write(" True : Its a Vowel<br>")
+// }
+// else {
+//     document.write(" False : Its Not aVowel<br>")
+// }
+
+
+
+
+// Task  : 5.
+// var pass=prompt("Enter Password"),correct_pass="pakistan123"
+// if (pass==="" || pass===" " ){
+// document.write("  Please enter your password<br>")
+// }
+// else if (pass===correct_pass ){
+// document.write("Correct! The password you entered matches the original password<br>")
+// }
+// else {
+// document.write("Incorrect password <br>")
+// }
+
+
+
+
+// Task  : 6. 
+// Task Fix By Using {Braces}
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else{
+// greeting = "Good evening";
+// }
+
+
+
+
+// Task  : 7.
+// var time=parseInt(prompt("Enter Time Like: 19:00 ( 24 Hours Foramat)"))
+// if(time=== 100 ){ 
+// document.write(" Time 12 Hours Format is: 1:00am  <br>")
+// }
+// else if(time=== 200 ){ 
+// document.write(" Time 12 Hours Format is: 2:00am  <br>")
+// }
+// else if(time=== 300 ){ 
+// document.write(" Time 12 Hours Format is: 3:00am  <br>")
+// } 
+// else if(time=== 400 ){ 
+//  document.write(" Time 12 Hours Format is: 4:00am  <br>")
+// }   
+// else if(time=== 500 ){ 
+// document.write(" Time 12 Hours Format is: 5:00am  <br>")
+// }        
+// else if(time=== 600 ){ 
+// document.write(" Time 12 Hours Format is: 6:00am  <br>")
+// }
+// else if(time=== 700 ){ 
+// document.write(" Time 12 Hours Format is: 7:00am  <br>")
+// }                  
+// else if(time=== 800 ){ 
+// document.write(" Time 12 Hours Format is: 8:00am  <br>")
+// }
+// else if(time=== 900 ){ 
+// document.write(" Time 12 Hours Format is: 9:00am  <br>")
+// }
+// else if(time=== 1000 ){ 
+// document.write(" Time 12 Hours Format is: 10:00am  <br>")
+// }
+// else if(time===1100 ){ 
+// document.write(" Time 12 Hours Format is: 11:00am  <br>")
+// }
+// else if(time===1200 ){ 
+// document.write(" Time 12 Hours Format is: 12:00am  <br>")
+// }
+// if(time=== 100 ){ 
+// document.write(" Time 12 Hours Format is: 1:00am  <br>")
+// }
+// else if(time=== 200 ){ 
+// document.write(" Time 12 Hours Format is: 2:00am  <br>")
+// }
+// else if(time=== 300 ){ 
+// document.write(" Time 12 Hours Format is: 3:00am  <br>")
+// } 
+// else if(time=== 400 ){ 
+//  document.write(" Time 12 Hours Format is: 4:00am  <br>")
+// }   
+// else if(time=== 500 ){ 
+// document.write(" Time 12 Hours Format is: 5:00am  <br>")
+// }        
+// else if(time=== 600 ){ 
+// document.write(" Time 12 Hours Format is: 6:00am  <br>")
+// }
+// else if(time=== 700 ){ 
+// document.write(" Time 12 Hours Format is: 7:00am  <br>")
+// }                  
+// else if(time=== 800 ){ 
+// document.write(" Time 12 Hours Format is: 8:00am  <br>")
+// }
+// else if(time=== 900 ){ 
+// document.write(" Time 12 Hours Format is: 9:00am  <br>")
+// }
+// else if(time=== 1000 ){ 
+// document.write(" Time 12 Hours Format is: 10:00am  <br>")
+// }
+// else if(time===1100 ){ 
+// document.write(" Time 12 Hours Format is: 11:00am  <br>")
+// }
+// else if(time===1200 ){ 
+// document.write(" Time 12 Hours Format is: 12:00am  <br>")
+// }
+// else
+// {
+// document.write(" Time in 12 Hours Format is in pm  <br>")
+// }
+                            
+
+
+
+
+// CHAPTER NO:14-16
+// Task  : 1.
+
+
+
+
+// Task  : 2.
+
+
+
+
+// Task  : 3.
+
+
+
+
+// Task  : 4.
+
+
+
+
+// Task  : 5.
+
 
 
 
@@ -341,4 +752,84 @@
 
 
 
+// Task  : 7.
 
+
+
+
+// Task  : 8.
+
+
+
+
+// Task  : 9.
+
+
+
+
+// Task  : 10.
+
+
+
+
+// Task  : 11.
+
+
+
+
+
+
+
+
+// CHAPTER NO:17-20
+// Task  : 1.
+
+
+
+
+// Task  : 2.
+
+
+
+
+// Task  : 3.
+
+
+
+
+// Task  : 4.
+
+
+
+
+// Task  : 5.
+
+
+
+
+// Task  : 6.
+
+
+
+
+// Task  : 7.
+
+
+
+
+// Task  : 8.
+
+
+
+
+// Task  : 9.
+
+
+
+
+// Task  : 10.
+
+
+
+
+// Task  : 11.
