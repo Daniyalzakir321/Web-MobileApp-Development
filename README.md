@@ -11,3 +11,6 @@
    
 4) [Mobile Price .PK Responsive Website](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-4) 
    *  *[Navigate To Live Link](https://mobilepricepk-web-assignment-4.web.app)*
+
+5) [JavaScript Chapters Practice](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-5) 
+   *  *[Navigate To Live Link]()*
