@@ -1,4 +1,4 @@
-# Assignments Of Web & Mobile App Development
+# *Assignments Of Web & Mobile App Development*
 1) [Periodic Table](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-1) 
 
    *  *[Navigate To Live Link](https://the-periodic-table-assignment1.web.app/)*
@@ -11,3 +11,6 @@
    
 4) [Mobile Price .PK Responsive Website](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-4) 
    *  *[Navigate To Live Link](https://mobilepricepk-web-assignment-4.web.app)*
+
+5) [JavaScript Chapters Practice](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-5) 
+   *  *[Navigate To Live Link]()*
