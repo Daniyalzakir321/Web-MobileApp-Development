@@ -722,41 +722,55 @@
 
 // CHAPTER NO:14-16
 // Task  : 1.
-
+// var student_name=[]
 
 
 
 // Task  : 2.
-
+// var js_Object = new Object()
+// var student_Name= new Array()
 
 
 
 // Task  : 3.
-
-
+// var string_array=["Daniyal"," Osama"," Faraz"]
+// document.write(string_array)
 
 
 // Task  : 4.
-
+// var num_array=[1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ]
+// document.write(num_array)
 
 
 
 // Task  : 5.
-
+// var boolean_array=[ true , false , true , false ,]
+// document.write(boolean_array)
 
 
 
 // Task  : 6.
+// var mixed_array=[ true , false , " True " , " False " , 0, 1]
+// document.write(mixed_array)
 
 
 
 
 // Task  : 7.
-
+// document.write("<h1>Qualifications: </h1>")
+// var edu_array=["", "SSC ", "HSC ", "BCS ", "BS ", "BCOM ", "MS ", "M. Phil. ", "PhD "]
+// for(var i=1; i<9; i++){
+// document.write([i]+ ") "+edu_array[i]+"<br>")
+// }
 
 
 
 // Task  : 8.
+// var sn=["Daniyal"," Osama"," Faraz"]
+// var score=[320, 230, 480],total_m=500
+// document.write("Score of "+sn[0]+" is "+score[0]+" . Percentage: 64% <br>")
+// document.write("Score of "+sn[1]+" is "+score[1]+" . Percentage: 64% <br>")
+// document.write("Score of "+sn[2]+" is "+score[2]+" . Percentage: 96% <br>")
 
 
 
@@ -766,12 +780,60 @@
 
 
 
-// Task  : 10.
 
+// Task  : 10.
+// var s_score=[320, 230, 480, 120]
+// document.write("Score of Students :" +s_score+"<br>")
+// document.write("Ordered Score of Students :" +s_score.sort()+"<br>")
 
 
 
 // Task  : 11.
+// var cities=["Karachi"," Lahore"," Islamabad"," Quetta", " Peshawar"]
+// document.write("Cities List: <br>")
+// document.write(cities+"<br><br>")
+// document.write("Selected Cities List: <br>")
+// document.write(cities[2]+"  "+cities[3]+"<br><br>")
+
+
+
+
+// Task  : 12.
+// var arr1 = ["This", "is", "my", "cat"];
+// document.write("Array: <br>"+arr1);
+// var join_array=arr1.join(" ");
+// document.write("<br><br> String: <br>"+join_array  )
+
+
+
+
+// Task  : 13.
+// var dev = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices: <br>"+dev);
+// document.write("<br><br> Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+
+
+
+
+
+// Task  : 14.
+// var dev = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices: <br>"+dev);
+// document.write("<br><br> Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+// document.write("<br>Out: <br>"+ dev.pop() )
+
+
+
+
+
+// Task  : 15.
+var mobile=["Apple ","Samsung ", "Motorola ", "Nokia ", "Sony ", "Haier"]
+document.write("<br>Out: <br>"+ mobile )
 
 
 
