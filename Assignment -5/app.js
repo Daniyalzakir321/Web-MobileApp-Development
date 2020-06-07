@@ -1,3 +1,9 @@
+// Name : M.Daniyal Zakir
+// Roll No: WM5912
+// Email: daniyalzakir03@gmail.com
+// Assignment-5: JavaScript 20-Chapters Practice
+
+
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 1 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // alert('Hello!');
@@ -23,6 +29,8 @@
 // b. Body (before your page’s HTML) [On Html Page]
 // c. Body (inside your page’s HTML) [On Html Page]
 // d. Body (after your page’s HTML)  [On Html Page]
+
+
 
 
 
@@ -74,6 +82,7 @@
 
 
 
+
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 3 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // var myage="22"
@@ -101,7 +110,8 @@
 
 
 
-// CHAPTER NO: 4
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 4 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // var var1,var2,var3
 
@@ -119,7 +129,11 @@
 
 
 
-// CHAPTER NO: 5
+
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 5 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+
 // Task  : 1.
 // var a=3,b=5
 // c=a+b
@@ -179,7 +193,6 @@
 
 
 // Task  : 6.
-
 // var celsius=25
 // fahrenheit=(celsius*9/5)+32
 // document.write(celsius+"<sup>0</sup>C is "+ fahrenheit + "<sup>o</sup>F<br>")
@@ -271,7 +284,10 @@
 
 
 
-// CHAPTER NO:6-9
+
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 6-9 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // document.write( "Result:")
 // var a=10
@@ -339,7 +355,10 @@
 
 
 
-// CHAPTER NO:9-11
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 9-11 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+
 // Task  : 1.
 // var city=prompt("Enter City Name").toLowerCase()
 // if (city==="karachi"){
@@ -549,7 +568,10 @@
 
 
 
-// CHAPTER NO:12-13
+
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 12-13 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // var check_num=prompt("Enter Character")
 // if( check_num >= 0 ){
@@ -720,7 +742,12 @@
 
 
 
-// CHAPTER NO:14-16
+
+
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 14-16 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+
 // Task  : 1.
 // var student_name=[]
 
@@ -842,7 +869,10 @@ document.write("<br>Out: <br>"+ mobile )
 
 
 
-// CHAPTER NO:17-20
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 17-20 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+
 // Task  : 1.
 
 
