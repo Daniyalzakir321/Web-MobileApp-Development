@@ -803,8 +803,51 @@
 
 
 // Task  : 9.
+// A
+// var user=prompt("What Color You Wants to Add to The Beginning of Array").toLowerCase()
+// var color=["red","green"]
+// color.unshift(user)
+// document.write(color.join(", "))
 
+// B
+// var user=prompt("What Color You Wants to Add at The End of Array").toLowerCase()
+// var color=["red","green"]
+// color.push(user)
+// document.write(color.join(", "))
 
+// C
+// var user=prompt("What Two Color You Wants to Add at The Beggining of Array").toLowerCase()
+// var use=prompt("What Two Color You Wants to Add at The Beggining of Array").toLowerCase()
+// var color=["red","green"]
+// color.unshift(user,use)
+// document.write(color.join(", "))
+
+// D
+// var color=["yellow","red","green","orange"]
+// color.splice(0,2)
+// document.write(color.join(", "))
+
+// E
+// var color=["yellow","red","green","orange"]
+// color.splice(3,1)
+// document.write(color.join(", "))
+
+// F
+// var color=["yellow","red","green","orange"]
+// user=parseInt(prompt("Enter index at, which you want to add color"))
+// cname=prompt("Enter Color Name")
+// color.splice(user,0)
+// color[user]=cname
+// document.write(color.join(", ") )
+
+// G
+// var color=["yellow","red","green","orange"]
+// user=parseInt(prompt("Enter index at, which you want to delete colors"))
+// cname=parseInt(prompt("How many colors you want to delete"))
+// color.splice(user,cname)
+// document.write("<br> Before: <br>"+ color.join(", "))
+// color[user]=["pink","black"]
+// document.write("<br> After: <br>" +color.join(", ") )
 
 
 
@@ -859,8 +902,8 @@
 
 
 // Task  : 15.
-var mobile=["Apple ","Samsung ", "Motorola ", "Nokia ", "Sony ", "Haier"]
-document.write("<br>Out: <br>"+ mobile )
+// var mobile=["Apple ","Samsung ", "Motorola ", "Nokia ", "Sony ", "Haier"]
+// document.write("<br>Out: <br>"+ mobile )
 
 
 
@@ -874,53 +917,108 @@ document.write("<br>Out: <br>"+ mobile )
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 17-20 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 
 // Task  : 1.
+// var marr=[ [], [], []]
 
 
 
 
 // Task  : 2.
-
-
+// var mularr=[ [0,1,2,3] ,[1,0,1,2] ,[2,1,0,1] ]
+// for(var i=0; i<=2; i++){
+// document.write( mularr[i] +"<br>")
+// }
 
 
 // Task  : 3.
-
+// for(var i=1; i<=10; i++){
+// document.write(i+"<br>")
+// }
 
 
 
 // Task  : 4.
-
+// var multab=parseInt(prompt("Enter a number to show its multiplication table"))
+// var tablength=parseInt(prompt("Enter length of multiplication table"))
+// document.write("Mmultiplication table of: "+ multab )
+// document.write("<br>Length: "+ tablength +"<br>")
+// for(var i=1; i<=tablength; i++){
+// document.write(multab +" X "+ i +" = "+ i*multab+  "<br>")
+// }
 
 
 
 // Task  : 5.
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"]
+// for(var i=0; i<=4; i++){
+// document.write( fruits[i] +"<br>")
+// }
+// document.write("<br><br>")
+// for(var i=0; i<=4; i++){
+//     document.write("Element at index "+[i]+" is " +fruits[i] +"<br>")
+// }
 
 
 
 
 // Task  : 6.
+// document.write( "Counting: <br>")
+// for(var i=0; i<=15; i++){
+// document.write( i +", ")
+// }
+// document.write( "<br><br>Reverse counting: <br>")
+// for(var i=10; i>=1; i--){
+// document.write( i +", " )
+// }
+// document.write( "<br><br>Even: <br>")
+// for(var i=0; i<=20; i=i+2){
+// document.write( i +", ")
+// }
+// document.write( "<br><br>Odd: <br>")
+// for(var i=1; i<=20; i=i+2){
+// document.write( i +", ")
+// }
+// document.write( "<br><br>Series: <br>")
+// for(var i=2; i<=20; i=i+2){
+// document.write( i +"k, ")
+// }
 
 
 
 
 // Task  : 7.
+// a=prompt("Welcome to ABC Bakkery. What do you want to order sir/ma'am").toLowerCase()
+// b = ["cake", "apple pie", "cookie", "chips", "patties"]
+// for(var i=0; i<=4; i++){
+// if ( a==b[i] ){
+// document.write(b[i] + " is available at index "+ i +" in our bakery <br>");
+// break
+// }
+// else{
+// document.write("We are sorry. "+ a+" is not available in our bakkery <br>")
+// break
+// }
+// }
 
 
 
 
 // Task  : 8.
+// arritem = [24, 53, 78, 91, 12]
+// document.write( "Array items: "+arritem.join(", "))
+// document.write( "<br>The largest number is: "+ Math.max(24, 53, 78, 91, 12) )
 
 
 
 
 // Task  : 9.
+// arritem = [24, 53, 78, 91, 12]
+// document.write( "Array items: "+arritem.join(", "))
+// document.write( "<br>The largest number is: "+ Math.min(24, 53, 78, 91, 12) )
 
 
 
 
 // Task  : 10.
-
-
-
-
-// Task  : 11.
+// for(var i=0; i<=100; i=i+5){
+// document.write(i+", ")
+// }
