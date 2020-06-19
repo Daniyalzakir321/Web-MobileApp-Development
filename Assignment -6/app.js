@@ -143,65 +143,93 @@
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 26-30 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 
 // Task  : 1.
-var input=prompt("Enter Positive Integers")
-
+// var input=Number(prompt("Enter Positive Integers"))
+// document.write("Number: "+input+"<br>Round Off Value: "+Math.round(input)+"<br> Floor Value: "+Math.floor(input)+"<br>Ceil Value: "+Math.ceil(input))
 
 
 // Task  : 2.
+// var input=Number(prompt("Enter Negative Integers"))
+// document.write("Number: "+input+"<br>Round Off Value: "+Math.round(input)+"<br> Floor Value: "+Math.floor(input)+"<br>Ceil Value: "+Math.ceil(input))
 
 
 // Task  : 3.
+// var input= -4
+// document.write("The absolute value of "+input+" is "+Math.abs(input))
 
 
 // Task  : 4.
-
+// document.write("Random dice value: "+Math.floor(  (Math.random()*6) +1) )
+// document.write("<br>Random dice value: "+Math.floor(  (Math.random()*6) +1) )
+ 
 
 // Task  : 5.
+// var toss=(Math.random()*2) +1
+// var toss=Math.floor(toss)
+// if (toss==1){
+// document.write(toss+ "<br>Random coin value: Heads" )
+// }
+// else{
+// document.write(toss+ "<br>Random coin value: Tails" )
+// }
 
 
 // Task  : 6.
+// document.write("Random number between 1 and 100: "+Math.floor( (Math.random()*100) +1 )  )
 
 
 // Task  : 7.
+// var weight=prompt("Enter Your Weight In Kilograms")
+// weight=weight.replace("kgs","")
+// weight=weight.replace("kg","")
+// weight=weight.replace("kilograms","")
+// weight=weight.replace("kilogram","")
+// document.write("The weight of users is "+ weight+" kilograms")
 
 
 // Task  : 8.
-
-
-// Task  : 9.
-
-
-// Task  : 10.
-
-
-// Task  :11.
-
-
-// Task  : 12.
-
-
-// Task  : 13.
+// var game=Number(prompt("Enter a number between 1 to 10"))
+// var a=Math.floor( (Math.random()*10) +1 )
+// if(game===a)
+// {
+// alert("Congratulations, You Won ")
+// }
+// else{
+// alert("Try Again! ")
+// }
 
 
 
 
 
 
-
-// ????????????????????????????????????????????? CHAPTER NO: 1 ?????????????????????????????????????????????//
-
-
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 31-34 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 
 // Task  : 1.
+// document.write(Date())
 
 
 // Task  : 2.
+// var month=Date()
+// var month=month.slice(4,7)
+// alert("Current month is: "+month)
 
 
 // Task  : 3.
+// var day=Date()
+// var day=day.slice(0,3)
+// alert("Today is "+day)
 
 
 // Task  : 4.
+// var day=Date()
+// var days=day.slice(0,3)
+// if(days=="Sat" || days=="Sun")
+// {
+// document.write("It's Fun Day ")    
+// }
+// else{
+// document.write("Today is Not Sat or Sun")    
+// }
 
 
 // Task  : 5.
@@ -229,6 +257,10 @@ var input=prompt("Enter Positive Integers")
 
 
 // Task  : 13.
+
+
+
+// Task  : 14.
 
 
 
