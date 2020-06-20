@@ -1,4 +1,3 @@
-
 // Name : M.Daniyal Zakir
 // Roll No: WM5912
 // Email: daniyalzakir03@gmail.com
@@ -68,9 +67,15 @@
 
 
 // Task  :11. 
-// var user_input=prompt("Enter Input & It Will Converted to Title Case");
-// var cap=user_input.titleCase();
-// document.write("<br> User Input: " +user_input+ "<br>Title case: "+cap);
+// var user_input=prompt("Enter String & It Will Converted to Title Case")
+// var words = user_input.split(" ")
+// var title = ""s
+// for (var key of words) {
+// var start = key[0].toUpperCase()
+// var end = key.slice(1)
+// title = title + start + end + " "
+// }
+// document.write("<br> User Input: " +user_input+ "<br>Title Case: "+title)
 
 
 // Task  : 12.
@@ -108,10 +113,21 @@
 // }
 
 
-
 // Task  : 15.
-// var password=prompt("Enter Password")
-
+// var password = prompt("Enter Your Password")
+// var character_code=  /^[0-9a-zA-Z]+$/
+// if(password.length > 6) {
+//     if(password.match(character_code)) 
+//     { 
+//     document.write(" The password is correct: " + password)
+//     } 
+//     else{
+//     document.write(" Please enter a valid password! " + password) 
+//     }
+// }
+// else{
+// document.write(" Please enter a valid password! " + password) 
+// }
 
 
 // Task  : 16.
@@ -128,11 +144,16 @@
 // document.write("User input: " +input+" <br>Last character of input: "+ b)
 
 
-// Task  : 18.    /////////////////////////////////////////////////
-// var input="The quick brown fox jumps over the lazy dog"
-// var i=input.toLowerCase()
-// var b=i.lastIndexOf("the")
-// document.write("Text: " +input+" <br>There are "+b+ " occurrence(s) of word 'the'")
+// Task  : 18.
+// var input="The quick brown fox jumps over the lazy dog".toLowerCase()
+// var flag=0
+// for(var i=0; i<input.length; i++)
+// {
+// if(input.slice(i,i+3)==="the"){
+// flag++
+// }
+// }
+// document.write("Text: " +input+" <br>There are "+flag+ " occurrence(s) of word 'the'")
 
 
 
@@ -315,14 +336,14 @@
 // document.write(" <h1> K-Electric Bill </h1>  ")
 // document.write("Customer Name: <b> ABC Customer </b>")
 // document.write("<br> Month: <b> February </b>")
-// var units = 410;
-// var charges = 16;
-// var surcharges = 350;
-// document.write(`<br>  Number of units: <b>  ${units} </b> `);
-// document.write(`<br>  Charges per unit: <b>  ${charges} </b> `);
-// document.write(`<br><br>  Net Amount Payable (within Due Date): <b>  ${(charges * units).toFixed(2)} </b> `);
-// document.write(`<br> Late Payment Surcharge: <b>  ${surcharges} </b> `);
-// document.write(`<br> Gross Amount Payable (after Due Date): <b>  ${((charges * units) + surcharges).toFixed(2)} </b>`);
+// var units = 410
+// var charges = 16
+// var surcharges = 350
+// document.write(`<br>  Number of units: <b>  ${units} </b> `)
+// document.write(`<br>  Charges per unit: <b>  ${charges} </b> `)
+// document.write(`<br><br>  Net Amount Payable (within Due Date): <b>  ${(charges * units).toFixed(2)} </b> `)
+// document.write(`<br> Late Payment Surcharge: <b>  ${surcharges} </b> `)
+// document.write(`<br> Gross Amount Payable (after Due Date): <b>  ${((charges * units) + surcharges).toFixed(2)} </b>`)
 
 
 
@@ -357,7 +378,7 @@
 // add()
 
 
-// Task  : 4.
+// Task  : 4. 
 // function calculator(num1,num2,operator) {
 //     if (operator == "+") {
 //         alert(num1 + num2)
@@ -404,21 +425,101 @@
 
 
 // Task  : 8.
+// function calculateHypotenuse(base, per) {
+//   var hypotenuse= calculateSquare(base) + calculateSquare(per) 
+//    hypotenuse=Math.sqrt(hypotenuse)
+//    return hypotenuse.toFixed(2)
+
+//    function calculateSquare(number) {
+//     return number**2 }
+// }
+// var base = Number(prompt("Enter Base Value Of Triangle: "))
+// var per  = Number(prompt("Enter Perpendicular Value Of Triangle: "))
+// document.write("Base value: " + base)
+// document.write("<br> Perpendicular value: " + per)
+// document.write("<br> Hypotenuse is: "+ calculateHypotenuse(base, per))
 
 
 // Task  : 9.
+// function area(width, height){
+//    var Area=width*height
+//     document.write("Width: "+ width)
+//     document.write("<br> Height: "+ height)
+//     document.write("<br> Area: "+Area)
+// }
+// var height=10
+// area(10,height)
 
 
 // Task  : 10.
+// function palindrome(p) {
+//     for (var a=0; a < p.length; a+=1) {
+//         if (p[a] !==p[p.length - 1 - a]) {
+//             document.write("No")
+//             break }
+//         else {
+//             document.write("Yes")
+//             break }
+//     }
+// }
+// palindrome("madam")
 
 
 // Task  :11.
+// function titlecase(arg) {
+//     var words = arg.split(" ")
+//     var title = ""
+//     for (var key of words) {
+//         var start = key[0].toUpperCase()
+//         var end = key.slice(1)
+//         title = title + start + end + " "
+//     }
+//     document.write("EXAMPLE STRING: " +arg)
+//     document.write("<br>EXPECTED OUTPUT : "+title)
+// }
+// titlecase("the quick brown fox")
 
 
 // Task  : 12.
+// function longestword(arg) {
+//     var words = arg.split(" ")
+//     var word = words[0]
+//     for (var key of words) {
+//         if (key.length > word.length) {
+//             word = key }
+//     }
+//     document.write("EXAMPLE STRING: " +arg)
+//     document.write("<br>EXPECTED OUTPUT: " + word)
+// }
+// longestword("Web Development Course")
 
 
 // Task  : 13.
+// function stringoccurance(arg1, arg2) {
+//     var flag = 0
+//     arg1 = arg1.toLowerCase()
+//     arg2 = arg2.toLowerCase()
+//     var occure = arg1.split("")
+//     for (var key of occure) {
+//         if (arg2 === key) {
+//             flag++  }
+//     }
+//     document.write("EXAMPLE STRING: " + arg1)
+//     document.write("<br>OUTPUT: " + arg2 + " occurrences: "+ flag +" time")
+// }
+// stringoccurance("JSResourceS.com", "o")
 
 
 // Task  : 14.
+// document.write("<h1>The Geometrizer</h1>")
+// function calcCircumference(radius) {
+//     var circumference =Math.PI * radius * 2
+//     document.write("Circumference of circle is: "+ circumference.toFixed(2) )
+// }
+// function calcArea(radius) {
+//     var area =Math.PI * (radius**2)
+//     document.write("<br> Area of circle is: "+ area.toFixed(2) )
+// }
+// var radius = Number(prompt("Enter The Radius of Circle"))
+// calcCircumference(radius)
+// calcArea(radius)
