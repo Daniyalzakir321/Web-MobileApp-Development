@@ -1,7 +1,7 @@
 // Name : M.Daniyal Zakir
 // Roll No: WM5912
 // Email: daniyalzakir03@gmail.com
-// Assignment-6: JavaScript 18-Chapters Practice
+// Assignment-6: JavaScript Chapters Practice 21-38
 
 
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 21-25 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
