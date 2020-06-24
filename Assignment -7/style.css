@@ -1,0 +1,78 @@
+.btn-dark{
+border-radius: 100px !important;
+font-size: 38px !important;
+font-family: 'Ubuntu', sans-serif;
+background-color: #212121 !important;
+border:1.3px solid rgb(236, 236, 236) !important;
+padding: 8px 27px 8px 27px !important;
+box-shadow: 2px 2px 5px rgb(15, 15, 15) !important;
+}
+.btn-dark:hover{
+box-shadow: 0px 0px 4.5px white !important;
+}
+
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Bold.ttf);
+  }
+  
+body{
+background-color:#282929 !important;
+}
+
+input{
+border-radius: 10px !important;
+height:75px !important;
+font-size: 44px !important;
+font-family: 'Ubuntu', sans-serif !important;
+font-weight: 10 !important;
+color: black !important;
+text-align: right !important;
+border:2px solid rgb(59, 59, 59) !important;
+}
+input:focus{
+border:2px solid rgb(59, 59, 59) !important;
+box-shadow: 1px 1px 6px rgb(59, 59, 59) !important;
+}
+
+#border{
+border-radius: 15px;
+border:3px solid rgb(243, 243, 243);
+background-color: rgb(133, 130, 130);
+padding: 13px 10px 0px 10px !important;
+margin-top: 10px;
+box-shadow: 6px 6px 15px black !important;
+}
+.buttons{
+  text-align: center !important;
+}
+#br{
+margin: 7px 10px !important;
+}
+
+#a{
+font-size: 33px !important;
+padding: 12px 20px 12px 20px !important;
+
+}
+
+#ab{
+  font-size: 29px !important;
+padding: 15px 15px 15px 15px !important;
+
+}
+
+
+#abc{
+  font-size: 29px !important;
+padding: 15px 21px 15px 21px !important;
+
+}
+
+
+#abcd{
+  font-size: 30px !important;
+padding: 16px 20px 16px 18px !important;
+
+}
