@@ -1,4 +1,4 @@
-# _Scientific Calculator Responsive WebApp_
+# _Scientific Calculator Responsive WebApp._
 
 ## *Developed by using Html, CSS, Bootstrap, Javascript and deployed to Firebase.*
 
