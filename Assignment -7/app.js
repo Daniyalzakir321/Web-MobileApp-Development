@@ -1,15 +1,7 @@
-// function c(){
-// var numb=document.getElementById("num") 
-// alert( numb.value )
-// }
-
-
-
 function Clear(){
 var num=document.getElementById("num") 
 num.value="" 
 }
-
 
 function num(arg){
 var num=document.getElementById("num") 
@@ -23,41 +15,61 @@ num.value =eval(num.value)
 
 function num_sqroot(){
 var num=document.getElementById("num") 
-num.value =Math.sqrt(num.value)
+num.value =Math.sqrt(num.value).toFixed(4) 
 }
 
 function num_square(){
 var num=document.getElementById("num") 
-num.value = (num.value)**2
+num.value = ((num.value)**2).toFixed(4) 
 }
 
 function num_log(){
 var num=document.getElementById("num") 
-num.value = Math.log(num.value)
+num.value = Math.log(num.value).toFixed(4) 
 }
 function num_sin(){
  var num=document.getElementById("num") 
-num.value = Math.sin(num.value)
+num.value = Math.sin(num.value).toFixed(4) 
 }
 function num_cos(){
 var num=document.getElementById("num") 
-num.value = Math.cos(num.value)
+num.value = Math.cos(num.value).toFixed(4) 
 }
 function num_tan(){
 var num=document.getElementById("num") 
-num.value = Math.tan(num.value)
+num.value = Math.tan(num.value).toFixed(4) 
 }
 
-function currentDate(){
-var day=Date()
-day=day.slice(15,20)
-var date=new Date()
-hour=date.getHours()
-if(hour>0  &&  hour<=12){
- document.getElementById("num").innerHTML  = day+" am"
+function num_pi(){
+var num=document.getElementById("num") 
+num.value += 3.14
 }
-else{
-document.write(day+" pm")
+
+function num_exp(){
+var num=document.getElementById("num") 
+num.value +=(Math.exp(num.value)).toFixed(4) 
 }
+
+function num_ln(){
+var num=document.getElementById("num") 
+num.value =Math.log(num.value).toFixed(4) 
 }
-// currentDate()
+
+function num_del(){
+var num=document.getElementById("num") 
+num.value = num.value.substring(0, num.value.length - 1)
+}
+
+function num_rad(){
+var num=document.getElementById("num")
+num.value = ((num.value) * (0.017444)).toFixed(4) 
+}
+
+function num_factorial(){
+var num=document.getElementById("num")
+var flags = 1
+for (var i=1; i<=num; i++) {
+flags = flags*i
+}
+num.value = flags
+}

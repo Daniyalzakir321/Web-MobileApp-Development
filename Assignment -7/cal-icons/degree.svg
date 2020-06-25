@@ -1,0 +1,16 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#ffffff" fill="#203442" id="svg_1" d="m24.32814,33.719447l0,0c-8.56,0 -15.5,-3.846 -15.5,-10l0,-10l31,0l0,10c0,5.171 -6.94,10 -15.5,10z" class="cls-1"/>
+  <path stroke="#ffffff" fill="#4c5665" id="svg_2" d="m45.99914,9.710447l-18.871,-9.227a7.518,7.518 0 0 0 -6.6,0l-18.871,9.227a3.26,3.26 0 0 0 0.15,5.927l2.521,1.082l16.543,7.079a7.517,7.517 0 0 0 5.914,0l16.543,-7.079l2.521,-1.078a3.26,3.26 0 0 0 0.15,-5.931z" class="cls-2"/>
+  <path fill="#ffffff" id="svg_3" d="m40,38a1,1 0 0 1 -1,-1l0,-17.639l-14.082,-7.221a1,1 0 1 1 0.914,-1.78l15.168,7.779l0,18.861a1,1 0 0 1 -1,1z" class="cls-3"/>
+  <ellipse fill="#203442" id="svg_4" ry="3" rx="4.5" cy="11" cx="24.5" class="cls-1"/>
+  <circle stroke="#ffffff" fill="#face53" id="svg_5" r="4" cy="38.82814" cx="39.719447" class="cls-4"/>
+ </g>
+</svg>

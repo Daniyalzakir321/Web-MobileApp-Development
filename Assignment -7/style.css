@@ -3,7 +3,7 @@ border-radius: 100px !important;
 font-size: 38px !important;
 font-family: 'Ubuntu', sans-serif;
 background-color: #212121 !important;
-border:1.3px solid rgb(236, 236, 236) !important;
+border:1.4px solid rgb(236, 236, 236) !important;
 padding: 8px 27px 8px 27px !important;
 box-shadow: 2px 2px 5px rgb(15, 15, 15) !important;
 }
@@ -11,10 +11,9 @@ box-shadow: 2px 2px 5px rgb(15, 15, 15) !important;
 box-shadow: 0px 0px 4.5px white !important;
 }
 
-
 @font-face {
     font-family: Ubuntu;
-    src: url(Ubuntu-Bold.ttf);
+    src: url(/fonts/Ubuntu-Bold.ttf);
   }
   
 body{
@@ -31,6 +30,7 @@ color: black !important;
 text-align: right !important;
 border:2px solid rgb(59, 59, 59) !important;
 }
+
 input:focus{
 border:2px solid rgb(59, 59, 59) !important;
 box-shadow: 1px 1px 6px rgb(59, 59, 59) !important;
@@ -44,9 +44,15 @@ padding: 13px 10px 0px 10px !important;
 margin-top: 10px;
 box-shadow: 6px 6px 15px black !important;
 }
+
 .buttons{
-  text-align: center !important;
+text-align: center !important;
 }
+
+#br>div{
+margin: 1px 0.7px !important;
+}
+
 #br{
 margin: 7px 10px !important;
 }
@@ -54,25 +60,110 @@ margin: 7px 10px !important;
 #a{
 font-size: 33px !important;
 padding: 12px 20px 12px 20px !important;
-
 }
 
 #ab{
-  font-size: 29px !important;
+font-size: 29px !important;
 padding: 15px 15px 15px 15px !important;
-
 }
 
-
 #abc{
-  font-size: 29px !important;
+font-size: 29px !important;
 padding: 15px 21px 15px 21px !important;
 
 }
 
-
 #abcd{
-  font-size: 30px !important;
+font-size: 30px !important;
 padding: 16px 20px 16px 18px !important;
+}
 
+#abcde{
+font-size: 26px !important;
+padding: 16px 14px 16px 14px !important;
+}
+
+#del{
+width: 33px !important;
+height: 34px;
+}
+
+#pi{
+width: 30px !important;
+height: 25px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+.btn-dark{
+font-size: 28px !important;
+padding: 8px 20px 8px 20px !important;
+}
+input{
+height:70px !important;
+font-size: 40px !important;
+font-weight: 10 !important;
+}
+#border{
+padding: 10px -10px 10px -10px !important;
+}
+ 
+#br>div{
+margin: 4px px !important;
+}
+  
+#br{
+margin: 7px -5px !important;
+}
+
+#del{
+width: 15px !important;
+height: 15px;
+}
+  
+#pi{
+width: 15px !important;
+height: 15px;
+}
+  
+#a,#ab,#abc,#abcd,#abcde{
+font-size: 18.5px !important;    
+}
+#a{
+padding: 15px 20px 15px 20px !important;
+}
+#media{
+padding: 5px !important;
+}
+#main{
+padding-right: 5px;
+padding-left: 5px;
+}  
+#sc{
+visibility: hidden;
+}
+}
+
+@font-face {
+  font-family: Amiri;
+  src: url(/fonts/Amiri-BoldItalic.ttf);
+}
+#sc{
+color: white;
+font-family: 'Amiri', serif;
+font-size: 50px;
+text-align: justify;
+text-shadow: rgb(255, 255, 255) !important;
+position: absolute;
+right: 50px;
+top: 60px;
+}
+#sc:hover{
+color: rgb(183, 184, 185);
+cursor: pointer;
+}
+#cd{
+  width: 200px !important;
+height: 200px;
 }

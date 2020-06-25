@@ -1,3 +1,10 @@
+<!-- 
+Name : M.Daniyal Zakir
+Roll No: WM5912
+Email: daniyalzakir03@gmail.com
+Assignment-7: Scientific Calculator (Responsive) 
+-->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,14 +19,12 @@
     <title>Calculator</title>
   </head>
   <body>
-   
-<div class="container" id="aaaaa">
 
+<div class="container" id="main" >
 
 <div class="container col-md-5" id="border">
-
 <div>
-<input type="text"  class="form-control" id="num">
+<input type="text" placeholder=0 class="form-control" id="num">
 </div>
 
 <div class="buttons">
@@ -28,10 +33,10 @@
         <div type="div" class="btn btn-dark" onclick="num_sin()" id="ab"> sin&thinsp;</div>
         <div type="div" class="btn btn-dark" onclick="num_cos()" id="ab">cos</div>
         <div type="div" class="btn btn-dark" onclick="num_tan()" id="ab">tan</div>
-        <div type="div" class="btn btn-dark" onclick="Clear()" id="abcd">CE</div>
+        <div type="div" class="btn btn-dark" onclick="Clear()" id="ab">&thinsp;CE&thinsp;</div>
     </div>
 <div id="br">
-    <div type="div" class="btn btn-dark" onclick="num_factorial('*')" id="ab">&thinsp;x! &thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num_factorial()" id="ab">&thinsp;x! &thinsp;</div>
     <div type="div" class="btn btn-dark" onclick="num_square()"  id="ab">&thinsp;&thinsp;x<sup>2</sup>&thinsp;</div>
     <div type="div" class="btn btn-dark" onclick="num_sqroot()" id="abc">√x</div>
     <div type="div" class="btn btn-dark" onclick="num_ln()" id="ab">&thinsp; ln&thinsp;</div>
@@ -42,7 +47,7 @@
     <div type="div" class="btn btn-dark" onclick="num('7')" >7</div>
     <div type="div" class="btn btn-dark" onclick="num('8')" >8</div>
     <div type="div" class="btn btn-dark" onclick="num('9')" >9</div>
-    <div type="div" class="btn btn-dark" onclick="num('%')" id="abc"> %&thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num('%')" id="abc" id="media"> %&thinsp;</div>
     <div type="div" class="btn btn-dark" onclick="num('*')" id="abc">&nbsp;X&nbsp;</div>
 
 </div>
@@ -50,7 +55,7 @@
     <div type="div" class="btn btn-dark" onclick="num('4')" >4</div>
     <div type="div" class="btn btn-dark" onclick="num('5')" >5</div>
     <div type="div" class="btn btn-dark" onclick="num('6')" >6</div>
-    <div type="div" class="btn btn-dark" onclick="num('-')" id="abc">&thinsp;&thinsp;-&thinsp;&thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num_del()" id="abc"><img src="cal-icons/del.svg" alt="del" id="del"></div>
     <div type="div" class="btn btn-dark" onclick="num('-')" id="abc">&thinsp;&thinsp;-&thinsp;&thinsp;</div>
 
 </div>
@@ -58,27 +63,24 @@
     <div type="div" class="btn btn-dark" onclick="num('1')" >1</div>
     <div type="div" class="btn btn-dark" onclick="num('2')" >2</div>
     <div type="div" class="btn btn-dark" onclick="num('3')" >3</div>
-    <div type="div" class="btn btn-dark" onclick="num('+')" >+</div>
+    <div type="div" class="btn btn-dark" onclick="num_rad()" id="ab">rad</div>
     <div type="div" class="btn btn-dark" onclick="num('+')" >+</div>
 </div>
 <div id="br">
-    <div type="div" class="btn btn-dark" onclick="num_pi()" id="abc">&thinsp;&Pi;&thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num_pi()" id="abc"><img src="cal-icons/pi.svg" alt="pi" id="pi"> </div>
     <div type="div" class="btn btn-dark" onclick="num('0')" >0</div>
-    <div type="div" class="btn btn-dark" onclick="num('.')" id="abc">&thinsp;&thinsp;.&thinsp;&thinsp;</div>
-    <div type="div" class="btn btn-dark" onclick="num_exp()" id="ab">&thinsp;e<sup>^</sup>&thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num('.')" id="abc" id="media">&thinsp;&thinsp;.&thinsp;&thinsp;</div>
+    <div type="div" class="btn btn-dark" onclick="num_exp()" id="a">e<sup>^</sup></div>
     <div type="div" class="btn btn-dark" onclick="equal()" >=</div>
 </div>
 </div>
 
 </div>
 
+</div> 
+<p id="sc">&thinsp;<img src="cal-icons/degree.svg" alt="degree" id="cd"><br> <u>SCIENTIFIC <br> CALCULATOR </u></p>
 
 
-
-
-
-
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
