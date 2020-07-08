@@ -1,0 +1,78 @@
+body{
+    background-image: url("road.jpg");
+    background-repeat: no-repeat;
+    background-color: black !important;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div{
+    text-align: center;  
+}
+
+@font-face {
+    font-family: digital;
+    src: url(Fonts/digital-7.ttf);
+}
+
+div>h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'digital', sans-serif;
+}
+
+p{
+    padding: 1px 7px;
+    margin: 1px 7px;
+    color:white;
+    font-family: 'digital', sans-serif;
+    font-size: 165px;
+    display: inline-block;
+    border-radius:7px ;
+    box-shadow: 1px 1px 10px gray;
+    width: 185px;
+}
+p:hover{
+    cursor: pointer;
+    color:rgb(221, 221, 221);
+    box-shadow: 1px 1px 20px white;
+}
+
+
+
+div>button{
+    background-color: black;
+    color:white;
+     font-family: 'digital', sans-serif;
+    font-size: 28px;
+    border-radius:8px ;
+    box-shadow: 1px 1px 5px grey;
+    opacity: 0.91;
+    height: 45px;
+    width: 85px;
+    border:2px solid rgb(172, 172, 172);
+}
+button:hover{
+    cursor: pointer;
+    color:white;
+    box-shadow: 1px 1px 20px white;
+    border:1.2px solid rgb(182, 182, 182);
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    p{
+
+        font-size: 86px;
+        border-radius:7px ;
+        width: 97px;
+        padding: 1px 5px;
+        margin: 1px 5px;
+    }
+    body{
+        height: 750px ;
+    }
+}

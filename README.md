@@ -17,4 +17,3 @@
    
 6) [JavaScript Chapters Practice 21-38](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-6) 
    *  *[Navigate To Live Link]()*
-
