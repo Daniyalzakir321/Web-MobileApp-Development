@@ -17,3 +17,8 @@
    
 6) [JavaScript Chapters Practice 21-38](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-6) 
    *  *[Navigate To Live Link]()*
+
+7) [Scienific Calculator Responsive WebApp](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-7) 
+   *  *[Navigate To Live Link](https://scientific-calculator-assign-7.web.app/)*
+
+
