@@ -35,9 +35,9 @@ function pause() {
 }
 
 function reset() {
-    getMin.innerHTML = 0
-    getSec.innerHTML = 0
-    getMs.innerHTML = 0
+    getMin.innerHTML = "00"
+    getSec.innerHTML = "00"
+    getMs.innerHTML = "00"
     pause()
     document.getElementById("start").disabled = false
 }
