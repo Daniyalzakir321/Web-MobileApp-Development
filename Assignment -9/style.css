@@ -1,0 +1,36 @@
+#task2>img{
+text-align: center;
+margin: 0px 80px;  
+cursor: pointer;
+border: 1px solid rgb(206, 206, 206);
+padding: 5px 5px;
+border-radius: 10px;
+}
+
+
+/*  */
+#task3{
+    font-weight: bold;
+}
+button{
+ padding: 0px 15px;
+}
+button:focus{
+    background-color: rgb(202, 199, 194);
+   }
+td{
+    border: 2px solid black;
+    padding: 3px 20px;
+}
+
+
+
+/*  */
+#task5{
+text-align: center;
+}
+.task-5{
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}

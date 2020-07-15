@@ -129,16 +129,39 @@
 
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 43-48 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
+// function alert_box(){
+// alert("Thanks For Clicking")  
+// }
+
 
 // Task  : 2.
+// function purchase_alert(){
+// Swal.fire("Thanks for purchasing a phone from us")
+// }
+
 
 // Task  : 3.
+// function delete_row(row){
+// var index = row.parentNode.parentNode.rowIndex;
+// document.getElementById("delete").deleteRow(index);
+// }
+
 
 // Task  : 4.
+// DONE IN HTML FILE
+
 
 // Task  : 5.
-
-// Task  : 6.
+var flag=0
+var count=document.getElementById("count")
+function inc(){
+flag++ 
+count.innerHTML=flag
+}
+function dec(){
+flag--
+count.innerHTML=flag
+}
 
 
 
