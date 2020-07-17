@@ -24,7 +24,6 @@ td{
 }
 
 
-
 /*  */
 #task5{
 text-align: center;
@@ -33,4 +32,41 @@ text-align: center;
 font-size: 30px;
 font-weight: bolder;
 font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+#Chap49-52-Task1{
+    background-color: rgb(43, 41, 41);
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px grey;
+}
+#signup{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#su{
+    background-color: rgb(43, 41, 41);
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#signupdetails{
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px; 
 }

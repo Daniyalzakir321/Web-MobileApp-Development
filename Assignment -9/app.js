@@ -152,31 +152,40 @@
 
 
 // Task  : 5.
-var flag=0
-var count=document.getElementById("count")
-function inc(){
-flag++ 
-count.innerHTML=flag
-}
-function dec(){
-flag--
-count.innerHTML=flag
-}
+// var flag=0
+// var count=document.getElementById("count")
+// function inc(){
+// flag++ 
+// count.innerHTML=flag
+// }
+// function dec(){
+// flag--
+// count.innerHTML=flag
+// }
 
 
 
-// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 21-25 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 49-52 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
+// function signup(){
+// var fname= document.getElementById("fname").value
+// var lname= document.getElementById("lname").value
+// var email= document.getElementById("email").value
+// var password= document.getElementById("password").value
+// var signup_details=document.getElementById("signupdetails")
+// signup_details.innerHTML="First Name: "+fname+ "<br>Last Name: "+lname+"<br>Email:    "+email+"<br>Password: "+password
+// }
+
 
 // Task  : 2.
+// function readmore(){
+// var readmore= document.getElementById("readmore")
+// readmore.innerHTML=" It is a standalone language developed in Netscape. It is used when a webpage is to be made dynamic and add special effects on pages like rollover, roll out and many types of graphics."
+// }
+
+
 
 // Task  : 3.
-
-// Task  : 4.
-
-// Task  : 5.
-
-// Task  : 6.
 
 
 
