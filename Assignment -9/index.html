@@ -28,11 +28,11 @@ Assignment-9: JavaScript Chapters Practice 1-68
 <!-- <h2>&nbsp;&nbsp;<b>Mobile Phone Lookup</b></h2>
 <br>
 <div id="task2">
-<img onclick="purchase_alert()" src="Chap 43-48 _ Task-2/a.jpg" alt="mobile" height="200px" width="100px">
-<img onclick="purchase_alert()" src="Chap 43-48 _ Task-2/b.jpg" alt="mobile" height="200px" width="100px">
-<img onclick="purchase_alert()" src="Chap 43-48 _ Task-2/c.jpg" alt="mobile" height="200px" width="100px">
-<img onclick="purchase_alert()" src="Chap 43-48 _ Task-2/d.jpg" alt="mobile" height="200px" width="100px">
-<img onclick="purchase_alert()" src="Chap 43-48 _ Task-2/e.jpg" alt="mobile" height="200px" width="100px">
+<img onclick="purchase_alert()" src="Chap43-48 -Task-2-Mobile-Images/a.gif" alt="mobile" height="200px" width="100px">
+<img onclick="purchase_alert()" src="Chap43-48 -Task-2-Mobile-Images/b.jpg" alt="mobile" height="200px" width="100px">
+<img onclick="purchase_alert()" src="Chap43-48 -Task-2-Mobile-Images/c.jpg" alt="mobile" height="200px" width="100px">
+<img onclick="purchase_alert()" src="Chap43-48 -Task-2-Mobile-Images/d.jpg" alt="mobile" height="200px" width="100px">
+<img onclick="purchase_alert()" src="Chap43-48 -Task-2-Mobile-Images/e.jpg" alt="mobile" height="200px" width="100px">
 </div> -->
 
 
@@ -118,7 +118,7 @@ Assignment-9: JavaScript Chapters Practice 1-68
 <!-- Task 4 -->
 <!-- <div style="text-align: center;">
 <h1><b>OnMouseOver & OnMouseOut</b> </h1>
-<img onmouseover="this.src='Chap 43-48 _ Task-2/a.gif'" onmouseout="this.src='Chap 43-48 _ Task-2/b.gif'" src="Chap 43-48 _ Task-2/b.gif" height="565px" width="360px">
+<img onmouseover="this.src='Chap43-48 -Task-2-Mobile-Images/a.gif'" onmouseout="this.src='Chap43-48 -Task-2-Mobile-Images/b.gif'" src="Chap43-48 -Task-2-Mobile-Images/b.gif" height="565px" width="360px">
 </div> -->
 
 
@@ -177,6 +177,51 @@ Counter: <span id="count">0</span>
 
 
 <!-- Task 3 -->
+<!-- <table id="delete" class="container col-md-5">
+    <tr  id="task3">
+        <td>Index</td>
+        <td>Name</td>
+        <td>Class</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(1)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(2)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mark</td>
+        <td>10</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(3)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>James</td>
+        <td>8</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(4)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>David</td>
+        <td>10</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(5)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Jake</td>
+        <td>9</td>
+        <td><button  onclick="delete_row(this)" >Delete</button> <button  onclick="edit_row(6)">&nbsp;&nbsp;Edit&nbsp;&nbsp;</button></td>
+    </tr> 
+    </table>
+     -->
 
 
 
@@ -184,17 +229,129 @@ Counter: <span id="count">0</span>
 
 
 
-
-
-
-
-
-
-
-<!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 49-52 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+<!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO:52-57 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
 <!-- Task 1 -->
-<!-- Task 2 -->
+<!-- <div id="modal" class="modal">
+<span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+<img class="modal-content" id="modal-img">
+</div>
+<h2 id="chap52T1">Hint:</h2>
+<p id="t1">You can add and remove class like this</p>
+<p id="t1">
+var modal = document.getElementById('modal');
+</p>
+<ul>
+<li>
+    modal.classList.add('modal-open')
+</li>
+<li>
+    modal.classList.remove('modal-close');
+</li>
+</ul>
+<hr>
+<ol>
+<li>
+    Add modal.html style and html codes in your file
+</li>
+<li>
+    Create an array of all images paths.
+</li>
+<li>
+    Loop through array and display all images in browser using innerHTML.
+</li>
+<li>
+    Add onclick function on each image.
+</li>
+<li>
+    On image Function definition get modal using id and assign it to a variable,
+    <br> And on that variable
+    <ul>
+        <li>
+            Add class 'modal-open'
+        </li>
+        <li>
+            Remove class 'modal-close'
+        </li>
+        <li>
+            Add style to display block
+        </li>
+        <li>
+            Assign image path to src
+        </li>
+    </ul>
+</li>
+<li>
+    On Modal Close Function definition "onClosedImagModal()" get modal using id and assign it to a variable,
+    <br> And on that variable
+    <ul>
+        <li>
+            Add class 'modal-close'
+        </li>
+        <li>
+            Remove class 'modal-open'
+        </li>
+        <li>
+            Set this line in end of function
+            <br /> setTimeout(()=>{ modal.style.display = "none"; }, 550)
+        </li>
+</li>
+</ol> -->
+
+
+
+<!-- Task 2  -->
+<!-- Done in JS File  -->
+
+
 <!-- Task 3 -->
+<!-- <div id="arr_img"></div> -->
+
+
+<!-- Task 4 -->
+<!-- <div id="arr_img" onclick="image()"></div> -->
+
+
+<!-- Task 5 -->
+<!-- <div id="modal" onclick="image()">sa</div> -->
+
+
+<!-- Task 6 -->
+<!-- <div id="modal" onclick="onClosedImagModal()" class="modal"></div> -->
+
+
+
+
+
+
+
+
+<!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO:58-67 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+<!-- Task 1 -->
+<!-- <div>
+    <p id="div"></p>
+    <h1> DOM </h1>
+    <div id="form-content" class="content">
+    <label for="first-name">First Name</label>
+    <input type="text" id="first-name" />
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" />
+    <label for="email">Email</label>
+    <input type="text" id="email" />
+    </div>
+    <div id="main-content" class="content">
+    <p class="render"> First Name : Alex</p>
+    <p class="render" id="lastName">Last Name: Bank</p>
+    <p class="render"> Email : alexbank@example.com</p>
+    <p class="render"> Country : Pakistan </p>
+    <p class="render"> contact : +92 300 1234567</p>
+ </div>
+</div> -->
+
+
+
+
+
+
 
 
 
@@ -211,5 +368,5 @@ Counter: <span id="count">0</span>
 
 </body>
 <script src="app.js"></script>
-<script src="sweetalert2@9.js"></script>
+<script src="/Sweet Alert JS/sweetalert2@9.js"></script>
 </html>
