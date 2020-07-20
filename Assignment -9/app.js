@@ -1506,17 +1506,17 @@
 // }
 
 
-// Task  : 3.         ////////////////////
-// var a=1,b=1,c=1
+// Task  : 3.
+// var a=5, b=5, c=5
 // function distance(){
-// var S= ( a + b + c ) / 2
-// document.write("S = "+ S)
+// var s= ( a + b + c ) / 2
+// document.write("S = "+ s)
+// return s
 // }
+// var S= distance()
 // function area(){ 
-// distance()
-// S
 // var area= S*(S - a)*(S - b)*(S - c)
-// document.write("<br>Area = "+ area)
+// document.write("<br> Area = "+ area)
 // }
 // area()
 
@@ -1650,6 +1650,7 @@
 
 
 
+
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 49-52 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
 // function signup(){
@@ -1669,7 +1670,6 @@
 // }
 
 
-
 // Task  : 3.
 // function delete_row(row){
 // var index = row.parentNode.parentNode.rowIndex
@@ -1687,9 +1687,10 @@
 
 
 
+
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 52-57 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
-// Done In HTML File
+// Done In HTML and CSS File
 
 // Task  : 2.
 // var arr_images=["others/1.jpg","others/2.jpg","others/3.jpg","others/4.png","others/5.jpg","others/6.jpg","others/7.png",
@@ -1710,7 +1711,7 @@
 
 // Task  : 4.
 // function image(){
-// alert("Hello! You Just Click On An IMAGE")
+// Swal.fire("Hi! You Just Click On An IMAGE")
 // }
 
 
@@ -1737,51 +1738,56 @@
 
 
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 58-67 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
-// ▬▬▬▬ Task  : 1 ▬▬▬▬.
-// Part  : i.
+// ▬▬▬▬▬▬ Task  : 1 ▬▬▬▬▬▬.
+// ▬ Part  : i ▬.
 // var main_content= document.getElementById("main-content")
 
-// Part  : ii.    ///////
+// ▬ Part  : ii ▬.
 // var main_content= document.getElementById("main-content")
-// for(var i=0; i<=4; i++){
-// document.getElementById("div").innerHTML ="Child Elements: "+ main_content.children[i].tagName
-// }
+// document.getElementById("div").innerHTML ="Child Elements: <br> 1st Element: "+ main_content.childNodes[0].tagName +
+// " <br> 2st Element: "+ main_content.childNodes[1].tagName +
+// " <br> 3rd Element: "+ main_content.childNodes[2].tagName +
+// " <br> 4th Element: "+ main_content.childNodes[3].tagName;
 
-// Part  : iii.   ///////
+// ▬ Part  : iii ▬. 
 // var main_content= document.getElementsByClassName("render")
-// for(var i=0; i<4; i++){
-// document.getElementById("div").innerHTML ="Inner Html:  "+ main_content
-// }
+// document.getElementById("div").innerHTML ="Elements || Inner Html: <br>"+
+// main_content[0].tagName+" || "+main_content[0].textContent+"<br>"+ 
+// main_content[1].tagName+" || "+main_content[1].textContent+"<br>"+ 
+// main_content[2].tagName+" || "+main_content[2].textContent+"<br>"+
+// main_content[3].tagName+" || "+main_content[3].textContent+"<br>"+
+// main_content[4].tagName+" || "+main_content[4].textContent;
 
-// Part  : iv.
+// ▬ Part  : iv ▬.
 // var fname= document.getElementById("first-name").value=" Daniyal "
 
-// Part  : v.
+// ▬ Part  : v ▬.
 // var lname= document.getElementById("last-name").value=" Zakir Ali "
 // var email= document.getElementById("email").value="daniyalzakir03@gmail.com"
 
 
-// ▬▬▬▬ Task  : 2 ▬▬▬▬.
-// Part  : i.
+// ▬▬▬▬▬▬ Task  : 2 ▬▬▬▬▬▬.
+// ▬ Part  : i ▬.
 // var main_content =document.getElementById("form-content").nodeType
 // document.getElementById("div").innerHTML ="Node Type: "+ main_content
 
-// Part  : ii.
+// ▬ Part  : ii ▬.
 // var main_content =document.getElementById("lastName")
 // document.getElementById("div").innerHTML ="Node Type: "+ main_content.nodeType +"<br>Child Node: "+ main_content.childNodes
 
-// Part  : iii.  ////////
+// ▬ Part  : iii ▬.
 // var lname= document.getElementById("lastName")
-// lname.childNodes="Zakir Ali"
+// lname.textContent="Last Name: Zakir Ali"
+// document.getElementById("div").innerHTML ="Update Child Node: "+ lname.textContent
 
-// Part  : iv.
+// ▬ Part  : iv ▬.
 // var main_content =document.getElementById("main-content")
 // document.getElementById("div").innerHTML ="First Child: "+ main_content.firstChild+"<br>Last Child: "+ main_content.lastChild
 
-// Part  : v.
+// ▬ Part  : v ▬.
 // var lname =document.getElementById("lastName")
 // document.getElementById("div").innerHTML ="Next Sibling: "+ lname.nextSibling+"<br>Previous Sibling: "+ lname.previousSibling
 
-// Part  : vi.
+// ▬ Part  : vi ▬.
 // var email =document.getElementById("email")
 // document.getElementById("div").innerHTML ="Parent Node: "+ email.parentNode +"<br>Node Type: "+ email.nodeType
