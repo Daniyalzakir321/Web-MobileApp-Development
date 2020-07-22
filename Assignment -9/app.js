@@ -724,7 +724,7 @@
 // {
 // document.write(" Time in 12 Hours Format is in pm  <br>")
 // }
-                            
+
 
 
 
@@ -1690,14 +1690,40 @@
 
 // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 52-57 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
 // Task  : 1.
-// Done In HTML and CSS File
+// function imageShow(e) {
+// Swal.fire({
+//     imageUrl: e.src,
+//     title: "Hi! You Just Click On An IMAGE",
+//     imageWidth: 650,
+//     imageHeight: 350,
+//     })
+// }
+
 
 // Task  : 2.
+// var fontSize = 1;
+// function zoomIn() {
+// fontSize += 0.625;
+// document.body.style.fontSize = fontSize + "em";
+// }
+// function zoomOut() {
+// fontSize -= 0.625;
+// document.body.style.fontSize = fontSize + "em";
+// }
+
+
+
+// ▬▬▬▬▬▬▬▬▬▬▬▬▬ [MODAL.HTML] FILE TASK ▬▬▬▬▬▬▬▬▬▬▬▬
+// ▬▬ [MODAL.HTML] File Task  : 1 ▬▬.
+// This Task Done In [HTML] and [CSS] File
+
+
+// ▬▬ [MODAL.HTML] File Task  : 2 ▬▬.
 // var arr_images=["others/1.jpg","others/2.jpg","others/3.jpg","others/4.png","others/5.jpg","others/6.jpg","others/7.png",
 // "others/8.jpg","others/9.jpg","others/10.jpg","others/11.jpg","others/12.jpg","others/13.jpg","others/14.png","others/15.jpg",]
 
 
-// Task  : 3.
+// ▬▬ [MODAL.HTML] File Task  : 3 ▬▬.
 // var arr_img= document.getElementById("arr_img")
 // for(var i=0; i<arr_images.length; i++){
 // var a=document.createElement('img')
@@ -1709,13 +1735,13 @@
 // }
 
 
-// Task  : 4.
+// ▬▬ [MODAL.HTML] File Task  : 4 ▬▬.
 // function image(){
 // Swal.fire("Hi! You Just Click On An IMAGE")
 // }
 
 
-// Task  : 5.
+// ▬▬ [MODAL.HTML] File Task  : 5 ▬▬.
 // function image(){
 // var modal=document.getElementById("modal")
 // modal.classList.add('modal-open')
@@ -1725,7 +1751,7 @@
 // }
 
 
-// Task  : 6.
+// ▬▬ [MODAL.HTML] File Task  : 6 ▬▬.
 // function onClosedImagModal(){
 // var modal=document.getElementById("modal")
 // modal.classList.add('modal-close')

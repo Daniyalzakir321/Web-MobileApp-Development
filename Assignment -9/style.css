@@ -76,7 +76,18 @@ h2>b{
 
 
 /* ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CHAPTER NO: 52-57 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
-/* Task 1 */
+/* Task: 1 */
+#modals{
+    border:3px solid rgb(226, 226, 226);    
+    cursor: pointer;
+    height: 250px;
+    width:290px;
+}
+#modals:hover{
+    border:5px solid rgb(59, 58, 58);  
+}
+
+/* [MODAL.HTML] File Task 1 */
 .format {
     width: 250px;
     height: 230px;
@@ -158,9 +169,6 @@ h2>b{
 }
 
 /* modal ends */
-
-
-
 
 
 
