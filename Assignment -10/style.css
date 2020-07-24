@@ -1,0 +1,187 @@
+body{
+  background-image: url("Images/WP1.jpg");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(Fonts/Ubuntu-Bold.ttf);
+}
+#h1{
+  color: white;
+  text-align: center;
+  text-shadow:2px 2px 10px black;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input{
+  font-family: 'Ubuntu', sans-serif;
+  border: 1px solid  black;
+  border-radius: 10px;
+  height: 45px;
+  font-size: 19px;
+  width: 550px;
+  background-color: honeydew;
+  color: black;
+  text-indent: 0.8ch;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+input:focus{
+  border: 2px solid  black;
+  box-shadow: 0px 0px 20px whitesmoke;
+
+}
+#add_items{
+  border-radius: 10px;
+  margin-left: 27px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+  border: 1px solid rgb(214, 214, 214);
+
+}
+#delete_all_items{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  height: 58px;
+  width: 58px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  body{
+    height: 750px !important;
+    background-repeat:repeat !important;
+    
+}
+
+  #h1{
+    font-size: 32px !important;
+    text-align: center !important;
+  }
+  
+  input{
+    height: 35px !important; 
+    font-size: 14px !important;
+    width: 340px !important; 
+    padding-top: 3px !important;
+  }
+  
+
+  #add_items{
+    margin-left: 110px !important;
+    margin-top: 9px !important;
+    height: 50px !important;
+    width: 50px !important;
+  }
+  #delete_all_items{
+    /* margin-left: 31px !important; */
+    margin-top: 10px !important;
+    height: 51px !important;
+    width: 50px !important;
+  }
+
+  ul>li>img{
+    height: 42px !important;
+    width: 42px !important;
+    margin-top: 15px !important;
+    margin-left: 110px !important;
+    display: block !important;
+  }
+
+  .delclass{
+    margin-left: 190px !important;
+    margin-top: -40px !important;
+    height: 49px;
+  }
+  
+  #big{
+    margin-left: -4.5px !important;
+  }
+  
+  #bg{
+  margin-left: -56px !important;
+  }
+
+ul{
+  margin-top: -55px !important;
+}
+li{
+   height: 28px !important;
+   font-size: 11.6px !important;
+   width: 331px !important;
+   margin-top: 65px !important;
+   text-indent: 0.5ch !important;
+}
+}
+
+ul>li>img{
+  height: 48px;
+  width: 48px;
+  margin-top: -60px ;
+  margin-left: 590px;
+  cursor: pointer;
+}
+
+div>ul>li>img:hover{
+border-radius: 10px;
+box-shadow: 0px 0px 20px whitesmoke;
+border: 1px solid black;
+background-color: rgb(26, 26, 26);
+height: 48px;
+}
+
+#add_items:hover,#delete_all_items:hover{
+box-shadow: 0px 0px 20px whitesmoke;
+border: 2px solid whitesmoke;
+}
+
+.delclass{
+  margin-left: 678px ;
+  margin-top: -115px;
+  height: 49px;
+}
+
+ul{
+  margin-top: -8px;
+}
+
+li{
+  padding-top: 4.5px;
+  text-transform: capitalize;
+  text-indent: 1ch;
+  list-style: none;
+  display: block;
+   border-radius: 10px;
+   height: 35px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+   width: 550px;
+   background-color: honeydew;
+   color: black;
+   cursor: pointer;
+   border: 1px solid black;
+   margin-left: 17px;
+   margin-top: 29px;
+}
+
+li:hover,input:hover{
+  box-shadow: 0px 0px 20px whitesmoke;
+  border: 1px solid black;
+}
+
+#file-upload-button,.swal2-file,.swal2-input,.swal-html-container{
+  visibility: hidden !important;
+}
+
+
