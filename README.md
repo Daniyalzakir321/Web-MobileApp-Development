@@ -27,7 +27,7 @@
 9) [JavaScript Chapters Practice 1-67](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-9) 
    *  *[Navigate To Live Link]()*
 
-9) [Todo Web App Responsive](https://github.com/Daniyalzakir321/Web-MobileApp-Development/tree/master/Assignment%20-10) 
+10) [Todo Web App Responsive](https://github.com/Daniyalzakir321/Todo-App) 
    *  *[Navigate To Live Link](https://todo-web-app-assignment-10.web.app)*
 
 
